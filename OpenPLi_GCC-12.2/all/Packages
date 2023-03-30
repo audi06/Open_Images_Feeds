@@ -128,115 +128,6 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
-Package: dreambox-bootlogo-dbg
-Version: 2.0+git1+b680994-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c68d804b942490853e5ec61a3e12c6f
-SHA256sum: d3a6e6fa7283845e37cc51efded8da0132eb083a1130e69745152e05335c9c65
-Size: 684
-Filename: dreambox-bootlogo-dbg_2.0+git1+b680994-r0_all.ipk
-Source: dreambox-bootlogo_2.0.bb
-Description: Bootlogo support - Debugging files
-OE: dreambox-bootlogo
-License: CLOSED
-Priority: optional
-
-Package: dreambox-bootlogo-dev
-Version: 2.0+git1+b680994-r0
-Recommends: dreambox-bootlogo (= 2.0+git1+b680994-r0), showiframe-dev
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d146bcc003e729b9ea44ad0092300fa0
-SHA256sum: 26e2aeb6436573c91b99c29a4594da44dba9a73c731838d2e86bcbc0f2699a32
-Size: 726
-Filename: dreambox-bootlogo-dev_2.0+git1+b680994-r0_all.ipk
-Source: dreambox-bootlogo_2.0.bb
-Description: Bootlogo support - Development files
-OE: dreambox-bootlogo
-License: CLOSED
-Priority: optional
-
-Package: dreambox-bootlogo-u-boot
-Version: 2.0+git1+b680994-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14eed5abc6ea66600aa98c53ed22416f
-SHA256sum: cea591a7b2d1d8542bc10a8f9c14afd0380e62b95fb297408ca4e746f375d659
-Size: 13804
-Filename: dreambox-bootlogo-u-boot_2.0+git1+b680994-r0_all.ipk
-Source: dreambox-bootlogo_2.0.bb
-Description: Bootlogo support
-OE: dreambox-bootlogo
-License: CLOSED
-Priority: optional
-
-Package: dreambox-bootlogo
-Version: 2.0+git1+b680994-r0
-Depends: showiframe
-Recommends: dreambox-bootlogo-u-boot
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1357952a08ae0e4ad8142943cbf34e18
-SHA256sum: e1d47b0f15bdd25b060a0ab26e1aa88c4e058441f8080755cd5e565f04ea84aa
-Size: 26022
-Filename: dreambox-bootlogo_2.0+git1+b680994-r0_all.ipk
-Source: dreambox-bootlogo_2.0.bb
-Description: Bootlogo support
-OE: dreambox-bootlogo
-License: CLOSED
-Priority: optional
-
-Package: dreambox-dvb-modules-systemd-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6af394e787f9cf299de34dc3ff68ddfd
-SHA256sum: a5f568d4aa54281c7f24b52461f043a099202179360dc774dadf99ec19531cda
-Size: 696
-Filename: dreambox-dvb-modules-systemd-dbg_1.0-r0_all.ipk
-Source: dreambox-dvb-modules-systemd_1.0.bb
-Description: Hardware drivers for Dreambox - udev rules for systemd - Debugging files
-OE: dreambox-dvb-modules-systemd
-License: CLOSED
-Priority: optional
-
-Package: dreambox-dvb-modules-systemd-dev
-Version: 1.0-r0
-Recommends: dreambox-dvb-modules-systemd (= 1.0-r0)
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 713c58fec7e32eac08469ae3ef687a91
-SHA256sum: 1edbc4fe6057180a6ee8245865aa4322b19c2f92e132e7a52b19e512f9a3cade
-Size: 728
-Filename: dreambox-dvb-modules-systemd-dev_1.0-r0_all.ipk
-Source: dreambox-dvb-modules-systemd_1.0.bb
-Description: Hardware drivers for Dreambox - udev rules for systemd - Development files
-OE: dreambox-dvb-modules-systemd
-License: CLOSED
-Priority: optional
-
-Package: dreambox-dvb-modules-systemd
-Version: 1.0-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5bf9b012adca0882eb53c086a263f1e3
-SHA256sum: 309b7dbfe76aec189a7f2086ca3d34b9e8f929b8add257d064eff6ef11debd21
-Size: 856
-Filename: dreambox-dvb-modules-systemd_1.0-r0_all.ipk
-Source: dreambox-dvb-modules-systemd_1.0.bb
-Description: Hardware drivers for Dreambox - udev rules for systemd
-OE: dreambox-dvb-modules-systemd
-License: CLOSED
-Priority: optional
-
 Package: enigma2-plugin-drivers-network-usb-carl9170-dbg
 Version: 1.0-r0
 Section: devel
@@ -759,9 +650,9 @@ Version: git37+4362afb-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: a7298a5a7d8578f2295459c7c07be13f
-SHA256sum: 3214c8f13d9e3537584f68bf79b122b6f24f58b3cd545d04e66f1c067b10d0e7
-Size: 82010
+MD5Sum: a5765c3d7bc68bd232b8378556377630
+SHA256sum: 7e6aca064b8eb62cd64e9a06f8e908fe6ce3d7f222d5474c11c64ebc1c64a44e
+Size: 81994
 Filename: enigma2-plugin-extensions-dreamosat-cammanager_git37+4362afb-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-cammanager_git.bb
 Description: Enigma2 Plugin DreamOSat camManager For Images by audi06_19
@@ -775,8 +666,8 @@ Version: git37+4362afb-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 50aff9ec268173398c03b6a7afc91c3e
-SHA256sum: c441468317b2c276643f4baffa1568d3a077db15dfb96ffc804b45701d2b7dcd
+MD5Sum: dab50f5636503006e89a5af14957351c
+SHA256sum: 40b1190e5c8bbcd60a674aa494c4a7984e0dcbc7fff67e9ffe8f48a4f80f69c4
 Size: 39462
 Filename: enigma2-plugin-extensions-dreamosat-keyupdater_git37+4362afb-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-keyupdater_git.bb
@@ -809,9 +700,9 @@ Depends: bash, openresolv, openvpn, python3-beautifulsoup4, python3-future, pyth
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 794534ef37a6c292e983a44d720ae381
-SHA256sum: 70106df14d8cb5c9f111fec97c4725716c44367c24ab8db865ac3237c64d59f5
-Size: 460166
+MD5Sum: 314fbdcd6ebdb1c56a7ba23f1fcb8a93
+SHA256sum: d078e5cf461aeb578442f7a80fda236a2f62cbb8bbaeda9eab298838b83c4420
+Size: 461898
 Filename: enigma2-plugin-extensions-vpnmanager_git37+4362afb-r0_all.ipk
 Source: enigma2-plugin-extensions-vpnmanager_git.bb
 Description: Enigma2 Plugin VpnManager For Images
@@ -825,8 +716,8 @@ Version: git17+0fc78e4-r0
 Section: devel
 Architecture: all
 Maintainer: audi06_19 <www.dreamosat-forum.com>
-MD5Sum: 5d77e0836fb559235e96a2012e14d6d6
-SHA256sum: d72c32704292bd6eaa16873ddb80817c1069e230a1f3ce79dff9ed1a5db86fb6
+MD5Sum: 1dbf023b61354104690ea95a0b402ba4
+SHA256sum: cad2d10fb81a8ca17729dfdffd72cf93002cbba7f5840671a8631059765d8a95
 Size: 744
 Filename: enigma2-plugin-skins-cinogripli-dbg_git17+0fc78e4-r0_all.ipk
 Source: enigma2-plugin-skins-cinogripli.bb
@@ -842,8 +733,8 @@ Recommends: enigma2-plugin-skins-cinogripli (= git17+0fc78e4-r0)
 Section: devel
 Architecture: all
 Maintainer: audi06_19 <www.dreamosat-forum.com>
-MD5Sum: 8b7c33f226d70c5bfd8bd4bc6b53d769
-SHA256sum: b028c6a63be18499e391402e4c7c766de2951c8180887ced25c13896b647006a
+MD5Sum: f593708c74df842f769b2056cce7d9bf
+SHA256sum: 96088d86d9e996235540ba2c9e4f7d406c26272433ff53c2405d84a3185e850c
 Size: 780
 Filename: enigma2-plugin-skins-cinogripli-dev_git17+0fc78e4-r0_all.ipk
 Source: enigma2-plugin-skins-cinogripli.bb
@@ -859,9 +750,9 @@ Recommends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponen
 Section: base
 Architecture: all
 Maintainer: audi06_19 <www.dreamosat-forum.com>
-MD5Sum: d385713cf00596ece452386f559270d0
-SHA256sum: 02dc3a6e11d1d4849fcc823ac7cde5af8e28e078d549b063f777b039311a8a14
-Size: 1338394
+MD5Sum: 1ffaa1818b2db55eadc5c3ffbc746694
+SHA256sum: 515f8e1757ea0b3ce8740284abbebb0418ccf6cbbc6ddc7772e376d3dd6b9501
+Size: 1338456
 Filename: enigma2-plugin-skins-cinogripli_git17+0fc78e4-r0_all.ipk
 Source: enigma2-plugin-skins-cinogripli.bb
 Description: enigma2-plugin-skins-cinogripli version gitAUTOINC+0fc78e4b54-r0
@@ -933,14 +824,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dbg
-Version: git826+03a11ad-r0
+Version: git827+51c1586-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b231377d0033a511d34c86e8ba7feb51
-SHA256sum: a1c48e356a1b0752a8e8783e9dc08f79414b60168f0b6e9c8e49ec0a58e98e55
-Size: 678
-Filename: enigma2-timezones-dbg_git826+03a11ad-r0_all.ipk
+MD5Sum: 01f2174d5189c031290f3dde4ae69d14
+SHA256sum: 893302d48e20ef4d9d67e10a6772b339e96bb55ab2e1d45527d832d743c04b1e
+Size: 680
+Filename: enigma2-timezones-dbg_git827+51c1586-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
 OE: enigma2-timezones
@@ -948,15 +839,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git826+03a11ad-r0
-Recommends: enigma2-timezones (= git826+03a11ad-r0)
+Version: git827+51c1586-r0
+Recommends: enigma2-timezones (= git827+51c1586-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9e737f9d0b25dd7fa13192f63651587
-SHA256sum: 7c736e72dba6c2845c5cb14bacd2d997e004959bab1becab414c10e0245f7e55
-Size: 712
-Filename: enigma2-timezones-dev_git826+03a11ad-r0_all.ipk
+MD5Sum: 87a69b954f83e1dbee64110f6402785a
+SHA256sum: 2861ece7863efb51829857f8136357c6b9db34740864a84a887eb2fa2bc2b675
+Size: 714
+Filename: enigma2-timezones-dev_git827+51c1586-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
 OE: enigma2-timezones
@@ -964,32 +855,17 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones
-Version: git826+03a11ad-r0
+Version: git827+51c1586-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 048cfc67cf3987a164cd73ce60b924ab
-SHA256sum: 817fc6be05a8179a58cd12844bdd09549bfbe2b681b831b4cc63955d447b68db
-Size: 6284
-Filename: enigma2-timezones_git826+03a11ad-r0_all.ipk
+MD5Sum: c740ea1eea3494756c299999467d27bc
+SHA256sum: 3e99edd2b9c170c4103d101fc0b934802d030437b096acce7def78f51bae4059
+Size: 6282
+Filename: enigma2-timezones_git827+51c1586-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
-License: Proprietary
-Priority: optional
-
-Package: firmware-bcmdhd
-Version: 1.0r2-r0
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d9c23218872ca623155797f5bad79ac
-SHA256sum: 9ff7c5cdf8daa4104092f7ba16aa01c60cc5cc0b900b6b18836717e2cc707c15
-Size: 321218
-Filename: firmware-bcmdhd_1.0r2-r0_all.ipk
-Source: firmware-bcmdhd_1.0r2.bb
-Description: Broadcom DHD firmware
-OE: firmware-bcmdhd
 License: Proprietary
 Priority: optional
 
@@ -4435,48 +4311,48 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git486+025d1f8-3
+Version: 2+git487+eb87c4c-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8353e3271031f505a6b7ae53520ce590
-SHA256sum: 9dc9d23588a89a2a0f68dcb5ef8702151d1fdc38932b7aa451e638c8a4161f27
+MD5Sum: 0457697b88817e4c3af0e02f69aad238
+SHA256sum: 8d84c0ae5806e355369902c16b673a96a34b1b3efe7e2e74bf83b72c310bdadd
 Size: 668
-Filename: tuxbox-common-dbg_2+git486+025d1f8-3_all.ipk
+Filename: tuxbox-common-dbg_2+git487+eb87c4c-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+025d1f8544-3 - Debugging files
+Description: tuxbox-common version 2+gitAUTOINC+eb87c4c5f6-3 - Debugging files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git486+025d1f8-3
-Recommends: tuxbox-common (>= 2+git486+025d1f8-3), tuxbox-common (<< 2+git486+025d1f8-3.0), xz-dev
+Version: 2+git487+eb87c4c-3
+Recommends: tuxbox-common (>= 2+git487+eb87c4c-3), tuxbox-common (<< 2+git487+eb87c4c-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: c6105793c2d76734277415b32feae228
-SHA256sum: da5a17d4e0d7a2a8e1dc58f65d036e3586c5b389db8bb18986b18d4d8d955dfe
-Size: 722
-Filename: tuxbox-common-dev_2+git486+025d1f8-3_all.ipk
+MD5Sum: 17216bc79dc59f9a3c33c6afbbabdca8
+SHA256sum: 57f8eb7e17b0159920ea29395ba09300c0a5b2d209a4a585d5ccac9f417ee2ef
+Size: 720
+Filename: tuxbox-common-dev_2+git487+eb87c4c-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+025d1f8544-3 - Development files
+Description: tuxbox-common version 2+gitAUTOINC+eb87c4c5f6-3 - Development files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git486+025d1f8-3
+Version: 2+git487+eb87c4c-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0d686f294eb83b2f0868cfd40afd8fec
-SHA256sum: 1b80c2a0477aa8861dabbcbed66713708b399c5e61fd973088abcc19a5c1ef82
-Size: 52458
-Filename: tuxbox-common_2+git486+025d1f8-3_all.ipk
+MD5Sum: 20fe312ac5ea5017167485dcb18ad4e5
+SHA256sum: 94196fa4090456f8d83dbc17b468a517ec37bbc479a3768f2fee125080f691ae
+Size: 52460
+Filename: tuxbox-common_2+git487+eb87c4c-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+025d1f8544-3
+Description: tuxbox-common version 2+gitAUTOINC+eb87c4c5f6-3
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
