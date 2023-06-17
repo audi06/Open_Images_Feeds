@@ -618,9 +618,9 @@ Version: git39+1a833f2-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 8b74bf8bba23467ba4710338c0924eae
-SHA256sum: a8f8ce8fac029c1fb9d679c3170bff22330e419d98bffff288ba79fdd6eead23
-Size: 82040
+MD5Sum: e67c3af497189427077b23b2ba81cac0
+SHA256sum: f88e0f12ddb38329a2911ff15c638278b7c8184f84cddd136d4eb8e7b515d099
+Size: 82044
 Filename: enigma2-plugin-extensions-dreamosat-cammanager_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-cammanager_git.bb
 Description: Enigma2 Plugin DreamOSat camManager For Images by audi06_19
@@ -634,8 +634,8 @@ Version: git39+1a833f2-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 59656a86c60971a93223cf7718419428
-SHA256sum: 0f5500a539517311b8660e3c861c42374cc31571284a923ba4b428a81b83770a
+MD5Sum: 22fd9b063821486680430effe15a767e
+SHA256sum: df94ec89ba45d47344691052f3c3be7675ef9fdc0b53c2f7608a22870d9fbdbb
 Size: 42660
 Filename: enigma2-plugin-extensions-dreamosat-keyupdater_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-keyupdater_git.bb
@@ -668,9 +668,9 @@ Depends: bash, openresolv, openvpn, python3-beautifulsoup4, python3-future, pyth
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 9c15b823fb0e95e0f782b5bb20e2c690
-SHA256sum: 326e99dfcbd118dd41bfeb816a04e1e3365a1f86f3e9cc2c72b06a8bd06c89df
-Size: 461914
+MD5Sum: b792974809695c0a8246621fa779c25d
+SHA256sum: 2e479c8157284c20a59487c8cb4a27bc607165f28ff77e8a65096cf8b94a62c1
+Size: 461862
 Filename: enigma2-plugin-extensions-vpnmanager_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-vpnmanager_git.bb
 Description: Enigma2 Plugin VpnManager For Images
@@ -4314,48 +4314,48 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git511+dc07014-3
+Version: 2+git513+a983390-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 8f570b819fd5f30fe377505e28371645
-SHA256sum: 7a49d79613830f4fa0c6cb608c5d87399658966845139bcb6db15a5fe618df17
-Size: 666
-Filename: tuxbox-common-dbg_2+git511+dc07014-3_all.ipk
+MD5Sum: 938a0393fc8896be9aeb042df1f80fe9
+SHA256sum: 9f472de0895b858b727ee4809672ec3d972498789e58dfb57be022d750ef410b
+Size: 668
+Filename: tuxbox-common-dbg_2+git513+a983390-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+dc07014a8c-3 - Debugging files
+Description: tuxbox-common version 2+gitAUTOINC+a983390857-3 - Debugging files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git511+dc07014-3
-Recommends: tuxbox-common (>= 2+git511+dc07014-3), tuxbox-common (<< 2+git511+dc07014-3.0), xz-dev
+Version: 2+git513+a983390-3
+Recommends: tuxbox-common (>= 2+git513+a983390-3), tuxbox-common (<< 2+git513+a983390-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 44b2cfcea2ee5070c029a6695974824c
-SHA256sum: 035a7dec4f456ec62cfcae6c9d55c7f11db554bd9f5272957d570ea9f5a70263
-Size: 720
-Filename: tuxbox-common-dev_2+git511+dc07014-3_all.ipk
+MD5Sum: 3ffb5ccb6453423ae3258352c8332376
+SHA256sum: e8389ac49c6255f64c21fdcfe35c3cbd8f0bdc4be7a97f10159b321d77278c97
+Size: 722
+Filename: tuxbox-common-dev_2+git513+a983390-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+dc07014a8c-3 - Development files
+Description: tuxbox-common version 2+gitAUTOINC+a983390857-3 - Development files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git511+dc07014-3
+Version: 2+git513+a983390-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6d300ae915bbfd7e4d9793dd096d170c
-SHA256sum: 6a545964bb255f84481db2415a0c777ac62c49f4b682845bd5007ed6c719be1d
-Size: 51776
-Filename: tuxbox-common_2+git511+dc07014-3_all.ipk
+MD5Sum: 332cac42dd6c01a8f6d8f7a787c171f2
+SHA256sum: a2eddc1391f17d4ec0855518a2b9c1c141ec51a6f4598f016f9a8adf4331ab8c
+Size: 51818
+Filename: tuxbox-common_2+git513+a983390-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+dc07014a8c-3
+Description: tuxbox-common version 2+gitAUTOINC+a983390857-3
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
