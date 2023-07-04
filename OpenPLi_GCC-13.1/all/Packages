@@ -618,9 +618,9 @@ Version: git39+1a833f2-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 67bb00da8e1514b95f0cc0b9262c5bf0
-SHA256sum: 64cd0818356b3741b3ab8bd0df315ac4cd8a13fd522bf32c52847ab3f64f27c1
-Size: 82064
+MD5Sum: e45ac2bb2d0af12fb47f50e9160927ab
+SHA256sum: 0f8246191c458d69d462d022e8f005d4378805b846a2290ba5556c6ff9a7fb46
+Size: 82044
 Filename: enigma2-plugin-extensions-dreamosat-cammanager_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-cammanager_git.bb
 Description: Enigma2 Plugin DreamOSat camManager For Images by audi06_19
@@ -634,8 +634,8 @@ Version: git39+1a833f2-r0
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 74c92b791ce758467c23cd3fc6b9a17e
-SHA256sum: c086ce067aad450f99a3b822b1a1976df61b629d57ca9ddb9c84fe802c11c77d
+MD5Sum: 56fdbcc276ddaeb7eff86bd41d0dd649
+SHA256sum: 5230d60c2770f3a7784bca39e353120f1f754df70e0b3fa3a3a8470bdcfa2e09
 Size: 42660
 Filename: enigma2-plugin-extensions-dreamosat-keyupdater_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-dreamosat-keyupdater_git.bb
@@ -646,18 +646,18 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgimport-rytec
-Version: 20230401-r0
+Version: 20230617-r0
 Replaces: enigma2-plugin-extensions-xmltvimport-rytec
 Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
 Maintainer: Rytec forum @ forums.openpli.org
-MD5Sum: 9a0773bd5d603ccdb004399a1f32db28
-SHA256sum: 43273e0636a30812768c01696b876e0e739754f0abd2bc476370faaaa4ba9632
-Size: 3604
-Filename: enigma2-plugin-extensions-epgimport-rytec_20230401-r0_all.ipk
+MD5Sum: 2017f71c96354252031d95825f3d2482
+SHA256sum: f2caeda2f487e45b0a5478c5a5aa525d4e50b60a1b15634a52c7220932935da2
+Size: 3602
+Filename: enigma2-plugin-extensions-epgimport-rytec_20230617-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-rytec.bb
-Description: enigma2-plugin-extensions-epgimport-rytec version 20230401-r0
+Description: enigma2-plugin-extensions-epgimport-rytec version 20230617-r0
 OE: enigma2-plugin-extensions-epgimport-rytec
 License: GPL-2.0-only
 Priority: optional
@@ -668,9 +668,9 @@ Depends: bash, openresolv, openvpn, python3-beautifulsoup4, python3-future, pyth
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 5ee31d5cee771c7cd881669e103aba82
-SHA256sum: 44ae31038bf62d594a03dfd3349b03335a5b9db6a24c58ffc70d55228c6bccbc
-Size: 460362
+MD5Sum: 35fe0a07c1d2026058f3956f1bf9be9c
+SHA256sum: eaf11f96b1ebc8c93c6a74a022e78fde71acc69484f66dfeaf73a19d1c0dd2e5
+Size: 460706
 Filename: enigma2-plugin-extensions-vpnmanager_git39+1a833f2-r0_all.ipk
 Source: enigma2-plugin-extensions-vpnmanager_git.bb
 Description: Enigma2 Plugin VpnManager For Images
@@ -792,14 +792,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dbg
-Version: git847+d3e90e8-r0
+Version: git849+e1afe14-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a45f100c6d01e1e79c5095dc38a077be
-SHA256sum: 5c3ea2295435837fba092c9b31cb235f48fa00c1b3acb85dafe1e3940c2432c9
+MD5Sum: 4f1190121e787761ee1e4a012b721b48
+SHA256sum: 409f7e95741841bf3a36f1a1bb8bf8bb6211ae90a04eb3a7e1902b6665f0b889
 Size: 680
-Filename: enigma2-timezones-dbg_git847+d3e90e8-r0_all.ipk
+Filename: enigma2-timezones-dbg_git849+e1afe14-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
 OE: enigma2-timezones
@@ -807,15 +807,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git847+d3e90e8-r0
-Recommends: enigma2-timezones (= git847+d3e90e8-r0)
+Version: git849+e1afe14-r0
+Recommends: enigma2-timezones (= git849+e1afe14-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6325ee3eaf69fed477e3723912079406
-SHA256sum: b95d621c4e143e379530b86b30d18411a03d11d2005dac1a3410d5d7010a8049
+MD5Sum: 2272a41353a1b4f27517f74aa6835b9e
+SHA256sum: 0d4fb195ac6c170a149d36889ca2cad8d0fbeee8b4cfd88a0d2c76d938e4eda2
 Size: 712
-Filename: enigma2-timezones-dev_git847+d3e90e8-r0_all.ipk
+Filename: enigma2-timezones-dev_git849+e1afe14-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
 OE: enigma2-timezones
@@ -823,19 +823,66 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones
-Version: git847+d3e90e8-r0
+Version: git849+e1afe14-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 76a8fcc1af4804bd863b1dde2530e8e5
-SHA256sum: a4e24072e3980af6874c9c0802b4e920e08a1a6865a458c47930c6b5c25b1579
-Size: 6284
-Filename: enigma2-timezones_git847+d3e90e8-r0_all.ipk
+MD5Sum: 011761a5ec3b0d582810a726a7997b4f
+SHA256sum: 7306f3d7884cbb603c8e3e6709bf78fa9d4f0708bb3466d14fb927e022c257d5
+Size: 6280
+Filename: enigma2-timezones_git849+e1afe14-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
 License: Proprietary
 Priority: optional
+
+Package: fakelocale-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: e4c2f95d8fcccd9273fb89b1cd4e0999
+SHA256sum: 15b78a1718e84413060651ef04f9b62918ff42aa0404abadbe2b9335ec667935
+Size: 638
+Filename: fakelocale-dbg_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Debugging files
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale-dev
+Version: 1.0-r0
+Recommends: fakelocale (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: 6a67a23dbd11eabfee1695b6dce47a89
+SHA256sum: 6cdeacb8166aedf27d7785616cf901fa3a7d52e4e756a7a826f5d501ea9500e7
+Size: 676
+Filename: fakelocale-dev_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Development files
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale
+Version: 1.0-r0
+Provides: virtual-locale-ar, virtual-locale-bg, virtual-locale-ca, virtual-locale-cs, virtual-locale-da, virtual-locale-de, virtual-locale-el, virtual-locale-en, virtual-locale-es, virtual-locale-et, virtual-locale-fa, virtual-locale-fi, virtual-locale-fr, virtual-locale-fy, virtual-locale-he, virtual-locale-hr, virtual-locale-hu, virtual-locale-id, virtual-locale-is, virtual-locale-it, virtual-locale-lt, virtual-locale-lv, virtual-locale-nl, virtual-locale-no, virtual-locale-pl, virtual-locale-pt, virtual-locale-ru, virtual-locale-sk, virtual-locale-sl, virtual-locale-sr, virtual-locale-sv, virtual-locale-th, virtual-locale-tr, virtual-locale-uk
+Section: base
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: fedf3beccd87d8da665a6a77c5d56110
+SHA256sum: e31760b3540c98e01efc51a9500a7b4491410b9184a3766a4cbb3228b537905c
+Size: 15856
+Filename: fakelocale_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support
+OE: fakelocale
+License: CLOSED
+Priority: required
 
 Package: firmware-carl9170
 Version: 1.9.5-r0
@@ -4185,15 +4232,15 @@ License: GPL-2.0-only
 Priority: required
 
 Package: openresolv-dbg
-Version: 3.5.2-r0
+Version: 3.13.1-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c18c5ecdc26c3a08407153bf4870e2e
-SHA256sum: 1d807dd33b9d457f9bd3c188a69a3b2f47ce690930dee2c328bde0f8d6eefe65
-Size: 718
-Filename: openresolv-dbg_3.5.2-r0_all.ipk
-Source: openresolv_3.5.2.bb
+MD5Sum: f080c25c8cfbdbfb4f332309857df0fb
+SHA256sum: 16a0b8b64a2dba32e229cddee8ea67e07028b192217486650d80b53ca03701c0
+Size: 720
+Filename: openresolv-dbg_3.13.1-r0_all.ipk
+Source: openresolv_3.13.1.bb
 Description: management framework for resolv.conf - Debugging files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -4201,16 +4248,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-dev
-Version: 3.5.2-r0
-Recommends: openresolv (= 3.5.2-r0)
+Version: 3.13.1-r0
+Recommends: openresolv (= 3.13.1-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 58ecdb8d5bfa86cc963b15dc9161c9f4
-SHA256sum: 5e3a94281fc33f2448874e4f53a6d9006a2634e17e8383921924708fd5e15c07
+MD5Sum: fc3479625fae4aabbc443770492fc5bf
+SHA256sum: a85d38144b03ff1441f5cd801267a1429fb062cb6f04e9d41e56526e802f591b
 Size: 748
-Filename: openresolv-dev_3.5.2-r0_all.ipk
-Source: openresolv_3.5.2.bb
+Filename: openresolv-dev_3.13.1-r0_all.ipk
+Source: openresolv_3.13.1.bb
 Description: management framework for resolv.conf - Development files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -4218,15 +4265,15 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv-doc
-Version: 3.5.2-r0
+Version: 3.13.1-r0
 Section: doc
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 28048ed924767baf5a9ed0a4edc39863
-SHA256sum: c507563ed3e0d36daddaecd3f870395a138bcce53a8b248cbc76ceb7a0258da8
-Size: 4976
-Filename: openresolv-doc_3.5.2-r0_all.ipk
-Source: openresolv_3.5.2.bb
+MD5Sum: f7f6e05ded7848c6ff2554f31f55a00f
+SHA256sum: de92a326f74c8abcf9020d296f711cf5e7c553f00537d978cf9a1b36220b91c6
+Size: 7090
+Filename: openresolv-doc_3.13.1-r0_all.ipk
+Source: openresolv_3.13.1.bb
 Description: management framework for resolv.conf - Documentation files
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -4234,17 +4281,17 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openresolv
-Version: 3.5.2-r0
+Version: 3.13.1-r0
 Provides: resolvconf
 Conflicts: resolvconf
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f260e298c26aadfb2ed9ac392414ff3
-SHA256sum: 5ca42fa179c0428ad3d3cfadeef3100f984b082044b1957a4c129e96472218ef
-Size: 9290
-Filename: openresolv_3.5.2-r0_all.ipk
-Source: openresolv_3.5.2.bb
+MD5Sum: 45ff267804ce0654beab79ac0aa118f1
+SHA256sum: 077aa09424d56a8c2175ddfd3275c197cddb77249bd7c05e266aaec5505fc56c
+Size: 13524
+Filename: openresolv_3.13.1-r0_all.ipk
+Source: openresolv_3.13.1.bb
 Description: management framework for resolv.conf
 OE: openresolv
 HomePage: http://roy.marples.name/projects/openresolv
@@ -4314,48 +4361,48 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git514+2a9c9fb-3
+Version: 2+git518+b0f89c1-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7c364e67e2e81cc89a849228b8c5033d
-SHA256sum: 0a97c6cb171116b7ad42aa8146161ae173f6cbc1a37deb9e30d45e40c898e57f
+MD5Sum: 4c2ff3ed4416b99584e89327cff4db55
+SHA256sum: 5efe3e826f7c42226297718e173d2961495730ac8e0f97eceef7851011dba8e9
 Size: 668
-Filename: tuxbox-common-dbg_2+git514+2a9c9fb-3_all.ipk
+Filename: tuxbox-common-dbg_2+git518+b0f89c1-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+2a9c9fb935-3 - Debugging files
+Description: tuxbox-common version 2+gitAUTOINC+b0f89c1a3b-3 - Debugging files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git514+2a9c9fb-3
-Recommends: tuxbox-common (>= 2+git514+2a9c9fb-3), tuxbox-common (<< 2+git514+2a9c9fb-3.0), xz-dev
+Version: 2+git518+b0f89c1-3
+Recommends: tuxbox-common (>= 2+git518+b0f89c1-3), tuxbox-common (<< 2+git518+b0f89c1-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 5fba63cef4a1b6cf0fd963b804b3ec61
-SHA256sum: f0d10e8f3dd72b99acb7a9a1e6f2ab0de491e3f280eb32d3ac8171e64cd7c22e
-Size: 722
-Filename: tuxbox-common-dev_2+git514+2a9c9fb-3_all.ipk
+MD5Sum: 101caeb98e54201b388fc18cf1173e73
+SHA256sum: 012b5bf5d7ab7f355f22ac54bedb8a1ce1d547193ad36e969557878846df0b85
+Size: 720
+Filename: tuxbox-common-dev_2+git518+b0f89c1-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+2a9c9fb935-3 - Development files
+Description: tuxbox-common version 2+gitAUTOINC+b0f89c1a3b-3 - Development files
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git514+2a9c9fb-3
+Version: 2+git518+b0f89c1-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 5dc3e64f5e1762b78af9e8db8e2e5b14
-SHA256sum: 4f40b5520f1565b331dcc1c899c5f31bd1af9d9821d3d9b51ae9560c46bf268d
-Size: 51826
-Filename: tuxbox-common_2+git514+2a9c9fb-3_all.ipk
+MD5Sum: 5f18cd8c58d520dabb9d45f5d0a8502b
+SHA256sum: ee745d8edbec17cb495aab683182d0af37dd7129067dbe1ea1152c30d481e93b
+Size: 51870
+Filename: tuxbox-common_2+git518+b0f89c1-3_all.ipk
 Source: tuxbox-common.bb
-Description: tuxbox-common version 2+gitAUTOINC+2a9c9fb935-3
+Description: tuxbox-common version 2+gitAUTOINC+b0f89c1a3b-3
 OE: tuxbox-common
 License: GPL-2.0-only
 Priority: optional
