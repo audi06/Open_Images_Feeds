@@ -8031,15 +8031,15 @@ License: GPL-2.0-only & LGPL-2.0-only & BSD-3-Clause & MIT
 Priority: optional
 
 Package: edid-decode-dbg
-Version: 1.0+git671+6e413210+6e4132123f-r0
+Version: 1.0+git675+7a27b330+7a27b339cf-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c729bf8654f2adb18474a44b4a0c2f93
-SHA256sum: 3bbda39b1db3ffdc9cff0da0670c4e74fd51e7c0c9f5eb6adfe7a4e78134a2f8
-Size: 1006872
-Filename: edid-decode-dbg_1.0+git671+6e413210+6e4132123f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d57c5e8b5710872c73234408079c0ebf
+SHA256sum: 0dae5caca3bc266a4f48ce5799e707f90dceedfb8b59c338127542bb715fb315
+Size: 1037070
+Filename: edid-decode-dbg_1.0+git675+7a27b330+7a27b339cf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Debugging files
 OE: edid-decode
@@ -8047,15 +8047,15 @@ License: MIT
 Priority: optional
 
 Package: edid-decode-dev
-Version: 1.0+git671+6e413210+6e4132123f-r0
-Recommends: edid-decode (= 1.0+git671+6e413210+6e4132123f-r0), glibc-dev, libgcc-dev, libstdc++-dev
+Version: 1.0+git675+7a27b330+7a27b339cf-r0
+Recommends: edid-decode (= 1.0+git675+7a27b330+7a27b339cf-r0), glibc-dev, libgcc-dev, libstdc++-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e00d8d033c7f7cd40a805e16df1463f
-SHA256sum: 66245ef9e63bc704dcae553bf523c9f065d023a1d223ffc184e3dc147d89fac5
-Size: 692
-Filename: edid-decode-dev_1.0+git671+6e413210+6e4132123f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 869b43ad52391273374cfd4463b74777
+SHA256sum: 99a5d0de1311a8a04bd56bb0db16e892a8de43a7e9049f8b448036ce73c7b3b8
+Size: 694
+Filename: edid-decode-dev_1.0+git675+7a27b330+7a27b339cf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Development files
 OE: edid-decode
@@ -8063,14 +8063,14 @@ License: MIT
 Priority: optional
 
 Package: edid-decode-doc
-Version: 1.0+git671+6e413210+6e4132123f-r0
+Version: 1.0+git675+7a27b330+7a27b339cf-r0
 Section: doc
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1229671748cb7bb6e6b80b653727332f
-SHA256sum: 975c57cab3dfa5e8985a2d3bd53106604362d6ac4848832c1ddbf991a2612c63
-Size: 6338
-Filename: edid-decode-doc_1.0+git671+6e413210+6e4132123f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: dfa60b2c8c0695854df1c2b13e554a55
+SHA256sum: 1d9146016b706dc3f4c310aaddab26d23553dcfc838a2193c42ba19d15484528
+Size: 6378
+Filename: edid-decode-doc_1.0+git675+7a27b330+7a27b339cf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester - Documentation files
 OE: edid-decode
@@ -8078,15 +8078,15 @@ License: MIT
 Priority: optional
 
 Package: edid-decode
-Version: 1.0+git671+6e413210+6e4132123f-r0
+Version: 1.0+git675+7a27b330+7a27b339cf-r0
 Depends: libc6 (>= 2.38+git0+1e04dcec49), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 47d4c9112a95f713599a9eb0ae5aab05
-SHA256sum: c64aba6d8814f7c52fc09f82f9e0ba180531d7a59dc231fc859c3be639bfffa6
-Size: 140598
-Filename: edid-decode_1.0+git671+6e413210+6e4132123f-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: af93f46cc7e9bca1a0ec9b50c7baba96
+SHA256sum: f7b24cd19772ce407cd24c38e6cac32f8e3909e02b7e5602a28d6bd7d8d67ef4
+Size: 140746
+Filename: edid-decode_1.0+git675+7a27b330+7a27b339cf-r0_cortexa15hf-neon-vfpv4.ipk
 Source: edid-decode.bb
 Description: EDID decoder and conformance tester
 OE: edid-decode
@@ -8321,15 +8321,61 @@ HomePage: https://sourceware.org/elfutils
 License: GPL-3.0-or-later
 Priority: optional
 
+Package: enigma2-dhcp-wait-dbg
+Version: 0.1-r0
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 59168fec75f4dca7892909acb5995b23
+SHA256sum: 1862bfe3f14d4ba1318edcfb4c8a8221acb694ac788f02ca847a5b4e0eb33f52
+Size: 622
+Filename: enigma2-dhcp-wait-dbg_0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-dhcp-wait_0.1.bb
+Description: enigma2 dhcp wait helper - Debugging files
+OE: enigma2-dhcp-wait
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-dhcp-wait-dev
+Version: 0.1-r0
+Recommends: enigma2-dhcp-wait (= 0.1-r0)
+Section: devel
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7036ce812cc4b14f62628f1d3e262c04
+SHA256sum: 4ec4c5fb39eb921c52af279ee10398daf335f83fa4ed68cdcca0d28cd2859d35
+Size: 652
+Filename: enigma2-dhcp-wait-dev_0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-dhcp-wait_0.1.bb
+Description: enigma2 dhcp wait helper - Development files
+OE: enigma2-dhcp-wait
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-dhcp-wait
+Version: 0.1-r0
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2b9edd666a579502680925f386329411
+SHA256sum: aaaa7443778d443a4aa8002ea32db1db67d9a032f1341e24256e701d2433ff17
+Size: 1428
+Filename: enigma2-dhcp-wait_0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: enigma2-dhcp-wait_0.1.bb
+Description: enigma2 dhcp wait helper
+OE: enigma2-dhcp-wait
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-aihdcontroler
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3dcc95690ed4508753a59327bd190bc0
-SHA256sum: 651b9ba14c86ae57e05143206ac957a34bb3ecfb8e9d933efd4d981c2abc5baf
-Size: 437536
-Filename: enigma2-plugin-extensions-aihdcontroler_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d368ad1789bf055d7ea26b3d6d17ab27
+SHA256sum: 714678c58e89c5d5967e1f8b252563513dae7bda2212f658133c27eac8f82d35
+Size: 437542
+Filename: enigma2-plugin-extensions-aihdcontroler_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-aihdcontroler
 OE: enigma2-plugins
@@ -8337,14 +8383,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-antiscrollbar
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a482f2addf2155eda7626a871a130610
-SHA256sum: 04085d7c1fb0a2963f29d33266939f2c78098e024e6ee4e3a65f4b72ada621fe
-Size: 15380
-Filename: enigma2-plugin-extensions-antiscrollbar_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 31759cdfa9b01e3c323aa52ab1a3f21f
+SHA256sum: 493a9b83553924c0943640b1776b05efd85304a9c60c17eaa31134b2216720f0
+Size: 15382
+Filename: enigma2-plugin-extensions-antiscrollbar_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-antiscrollbar
 OE: enigma2-plugins
@@ -8352,15 +8398,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ardmediathek
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-requests, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8468ae3e026bc802dbd499f7a833fd74
-SHA256sum: 1fc3f7b2b5aba65dfde7d2517dd7915825973c08f9d3fe53bd319c10ca151fbf
+MD5Sum: b5ed5752afb1a86e8011f109b598e6eb
+SHA256sum: 18bdfe987e77e3b4c675bc5e81c22f419446a65278265105072a901a7d1a817d
 Size: 71476
-Filename: enigma2-plugin-extensions-ardmediathek_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-ardmediathek_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ardmediathek
 OE: enigma2-plugins
@@ -8368,16 +8414,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-audiosync
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Replaces: enigma2-plugin-extensions-ac3lipsync
 Conflicts: enigma2-plugin-extensions-ac3lipsync
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f18acf5813fd7f62e742847d021df185
-SHA256sum: d1a94280c0186c4bd47a63d4412ad868306b692dbb279f6ecc2f7f29769194ba
+MD5Sum: 4dc5f876461f4e4764fd99b22a4cac54
+SHA256sum: ea3cfce6fcc6d87d1ea256206a4d3510b851770de8bea5b71a91f274f81fc7fc
 Size: 69990
-Filename: enigma2-plugin-extensions-audiosync_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-audiosync_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-audiosync
 OE: enigma2-plugins
@@ -8385,14 +8431,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-autobackup-dbg
-Version: 2.0+git171+573cd500+573cd50921-r1
+Version: 2.0+git171+573cd500+573cd50921-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5e4b51ff5cb2f673c1d3d42e1ba2d5b
-SHA256sum: 492fb98ee2bbac1ab9e5ad40d36e5d95aa0814f2d82f44dceb37eeda37d9cd52
+MD5Sum: 88f5a6c8e252c9c362969bbf75316054
+SHA256sum: ea07089658b7a1f5f869372f108e143624090dac3f851dd5b094cd17c11f1a43
 Size: 678
-Filename: enigma2-plugin-extensions-autobackup-dbg_2.0+git171+573cd500+573cd50921-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-autobackup-dbg_2.0+git171+573cd500+573cd50921-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically - Debugging files
 OE: enigma2-plugin-extensions-autobackup
@@ -8400,15 +8446,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-autobackup-dev
-Version: 2.0+git171+573cd500+573cd50921-r1
-Recommends: enigma2-plugin-extensions-autobackup (= 2.0+git171+573cd500+573cd50921-r1), python3-core-dev, python3-dev
+Version: 2.0+git171+573cd500+573cd50921-r0
+Recommends: enigma2-plugin-extensions-autobackup (= 2.0+git171+573cd500+573cd50921-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b0a389b1f1df8e863b837829bb89c97e
-SHA256sum: 6dc0931e04af5bfcb3cf862da059d07cc3fe222ff8995174c2d2367004d5a496
+MD5Sum: 3c94e56e2cd3ef80eea321bb73fb8d17
+SHA256sum: 15ec397fdcd916f8ab08d516e601dcfe5911daee92780121f699cfc6b18ab7e2
 Size: 728
-Filename: enigma2-plugin-extensions-autobackup-dev_2.0+git171+573cd500+573cd50921-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-autobackup-dev_2.0+git171+573cd500+573cd50921-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically - Development files
 OE: enigma2-plugin-extensions-autobackup
@@ -8416,17 +8462,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-autobackup
-Version: 2.0+git171+573cd500+573cd50921-r1
+Version: 2.0+git171+573cd500+573cd50921-r0
 Depends: python3-core
-Replaces: enigma2-plugin-pli-autobackup
-Conflicts: enigma2-plugin-pli-autobackup
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddfd0213edb7e9a3e0440889a9bd64d1
-SHA256sum: dc86931d7c8c88e340e4c1ebfaafc65bd9a7481f2fa170f6d237716ee3019347
-Size: 44820
-Filename: enigma2-plugin-extensions-autobackup_2.0+git171+573cd500+573cd50921-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: caff38cae59609f1ea1750dbc9422580
+SHA256sum: 270b570ea38e3f1aa042c7b0c093c11c24036811c8c987b15ceaf03e29f0d059
+Size: 44844
+Filename: enigma2-plugin-extensions-autobackup_2.0+git171+573cd500+573cd50921-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-autobackup.bb
 Description: Backup settings and restore them automatically
 OE: enigma2-plugin-extensions-autobackup
@@ -8434,15 +8478,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-autotimer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 990b9e6c8e48d09a0ca701effb51f641
-SHA256sum: 63186a88e994b51a71241d7ec0421cbfdbf9cc4fdc67f8a485dbdcff31246596
-Size: 446552
-Filename: enigma2-plugin-extensions-autotimer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fc72b84641ed27c8d2a2a08b87b61943
+SHA256sum: a5a76bf9fc358cee9bedd4e8d33ef1957deed377892a61e5ffac0aafc8aeeb4a
+Size: 446646
+Filename: enigma2-plugin-extensions-autotimer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-autotimer
 OE: enigma2-plugins
@@ -8450,14 +8494,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-babelzapper
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e2fc56a2fdc24d0763949d57ea7189a8
-SHA256sum: 1b32c23f138597df579939b855024f054d154de01e7a507adb70e1b78ee23b47
-Size: 25742
-Filename: enigma2-plugin-extensions-babelzapper_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8dd782b2efa20ee1820dae687c50bb01
+SHA256sum: a5712a681d77aa6d74ee948f3a800e1cd5d699011ad92204cfc968867eb74ebd
+Size: 25744
+Filename: enigma2-plugin-extensions-babelzapper_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-babelzapper
 OE: enigma2-plugins
@@ -8465,65 +8509,63 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate-dbg
-Version: 2.0+git39+d55ee410+d55ee41490-r1.2
+Version: 2.0+git39+d55ee410+d55ee41490-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5468dbbe055259c6cc25b898247d134c
-SHA256sum: 2d88c23fa8dc0db3ab150ff9e7f1b8613dcafcdf0f48e7468fd46d7370725b6b
-Size: 54542
-Filename: enigma2-plugin-extensions-bitrate-dbg_2.0+git39+d55ee410+d55ee41490-r1.2_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: df509a57a9bf5c4ea788eb4ba9d5b3e7
+SHA256sum: 3006c7e0a76c34afdf71345ba0be3464f26060d47c3d15ce1ced0b5e924534f0
+Size: 54540
+Filename: enigma2-plugin-extensions-bitrate-dbg_2.0+git39+d55ee410+d55ee41490-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
-Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1.2 - Debugging files
+Description: enigma2-plugin-extensions-bitrate version 2.0+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-bitrate
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate-dev
-Version: 2.0+git39+d55ee410+d55ee41490-r1.2
-Recommends: enigma2-plugin-extensions-bitrate (= 2.0+git39+d55ee410+d55ee41490-r1.2), glibc-dev, libgcc-dev, libstdc++-dev, python3-dev
+Version: 2.0+git39+d55ee410+d55ee41490-r0
+Recommends: enigma2-plugin-extensions-bitrate (= 2.0+git39+d55ee410+d55ee41490-r0), glibc-dev, libgcc-dev, libstdc++-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e2d3f6ccffeca41db575b66b62765d49
-SHA256sum: b8ace23fe2267e876bed82433173a2f7063a4028a8c1ae56711018392030ddbc
-Size: 686
-Filename: enigma2-plugin-extensions-bitrate-dev_2.0+git39+d55ee410+d55ee41490-r1.2_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c11519c2d3c48b42902194b32e296eba
+SHA256sum: 55d511961e75b8fed3cfefa3d52bd4130c4e675225a42251308deda8395b8498
+Size: 684
+Filename: enigma2-plugin-extensions-bitrate-dev_2.0+git39+d55ee410+d55ee41490-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
-Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1.2 - Development files
+Description: enigma2-plugin-extensions-bitrate version 2.0+git-r0 - Development files
 OE: enigma2-plugin-extensions-bitrate
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bitrate
-Version: 2.0+git39+d55ee410+d55ee41490-r1.2
+Version: 2.0+git39+d55ee410+d55ee41490-r0
 Depends: libc6 (>= 2.38+git0+1e04dcec49), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0)
-Replaces: enigma2-plugin-pli-bitrate
-Conflicts: enigma2-plugin-pli-bitrate
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e252d125a1796faacbbd64c739080a64
-SHA256sum: ade1bd19edccdb57e23571b71b3b2f941c3be3fbb2d937135a86fff4b0946684
-Size: 35128
-Filename: enigma2-plugin-extensions-bitrate_2.0+git39+d55ee410+d55ee41490-r1.2_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0667d2e6f2f6e8950b82cf8a33997f1a
+SHA256sum: f12b48d74654246ee710ac54610bab99d8d5699f4dbd08ee54c20ff6684f960d
+Size: 35106
+Filename: enigma2-plugin-extensions-bitrate_2.0+git39+d55ee410+d55ee41490-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-bitrate.bb
-Description: enigma2-plugin-extensions-bitrate version 2.0+git-r1.2
+Description: enigma2-plugin-extensions-bitrate version 2.0+git-r0
 OE: enigma2-plugin-extensions-bitrate
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-bonjour
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: avahi-daemon
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 17de818eb4289e4de88e0a0b13bb6664
-SHA256sum: d675f305457ac4d99fc936d1af5328869142d037075fd0c937c995aef2fc96b1
-Size: 10268
-Filename: enigma2-plugin-extensions-bonjour_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d8b56c7aaf6e76139f8966bd2b25f8ad
+SHA256sum: bf5d3bcad444dd6c7d5408cf50e5c75471c7aa82c968a4585941578e232ec97e
+Size: 10272
+Filename: enigma2-plugin-extensions-bonjour_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-bonjour
 OE: enigma2-plugins
@@ -8531,15 +8573,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-cdinfo
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: libcddb (>= 1.3.0), libcdio19 (>= 0.80)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e4926baae59b5b159ec68822072d96f3
-SHA256sum: b98953b0c8a6470b57d8ab6ab9d9b5261605fe3da88478cc6b9c9aab81e24672
-Size: 15182
-Filename: enigma2-plugin-extensions-cdinfo_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 299d1a6b7375ec98e3a29cdbbdca5666
+SHA256sum: 6ed501321b446ee98ea54076ced3c8b6c5731c188729cccde7bf09dfcfcd3a2d
+Size: 15180
+Filename: enigma2-plugin-extensions-cdinfo_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-cdinfo
 OE: enigma2-plugins
@@ -8629,16 +8671,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamexplorer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Recommends: gstreamer1.0-plugins-good-flv
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 008b21cb7750cabebd0ad2400487ed3b
-SHA256sum: 48088ba2666fb9dbe7a126436aaeeefef327e9789dae83659d4bfd40950840c9
-Size: 95348
-Filename: enigma2-plugin-extensions-dreamexplorer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a78be1842e58204b7d01463af4581de5
+SHA256sum: 3f13d988d4b7d2c70d8cb8e5e0552eec6883565318d2413ab03bbf21ce078ec7
+Size: 95354
+Filename: enigma2-plugin-extensions-dreamexplorer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamexplorer
 OE: enigma2-plugins
@@ -8646,14 +8688,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamirc
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ce8b527518949c012391954220a110c1
-SHA256sum: bdb3a09d73e350aef0bc4d36c5543aa69f7584337daf3387730d5a8f0c7ea68b
-Size: 104700
-Filename: enigma2-plugin-extensions-dreamirc_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c7b825fdaca6f2896fe6e05191be6e8f
+SHA256sum: fb17c79bd36128cf3a7dbfd50a9564fe4d2b39790a9b0ff9b0087e1c7757e7ac
+Size: 104702
+Filename: enigma2-plugin-extensions-dreamirc_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamirc
 OE: enigma2-plugins
@@ -8661,15 +8703,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreammediathek
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 793bf0e6ab88237975c417819471c64c
-SHA256sum: 392091703d17d81f71678e6ca0204f6ea3f34059dcf6af8693413c57b8315a6f
-Size: 17896
-Filename: enigma2-plugin-extensions-dreammediathek_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 81796b8f3eceeee22a7ae089bf9ad9bc
+SHA256sum: baa75970181aa6ab8517afc139b8db3929bbaf1e4d7d7fe141c51dd786ae07d2
+Size: 17898
+Filename: enigma2-plugin-extensions-dreammediathek_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreammediathek
 OE: enigma2-plugins
@@ -8677,15 +8719,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-downloader
-Version: git44+3e7bf930+3e7bf935ec-r0
+Version: git45+24ef1e40+24ef1e4634-r0
 Depends: curl, libc6 (>= 2.38+git0+1e04dcec49), python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: cdc77fc56085a8afe227a9a5318ae9de
-SHA256sum: 876ad7a6c681c6eba218781143ab912b518dd368914dcebf6094996d31ece8c9
+MD5Sum: a6c88306d1082aa76c4f2161101d8c2e
+SHA256sum: 0839ca72e5e39ccbf076c24ec1348c4cad91f413129216d81778904d4476d661
 Size: 573942
-Filename: enigma2-plugin-extensions-dreamosat-downloader_git44+3e7bf930+3e7bf935ec-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-dreamosat-downloader_git45+24ef1e40+24ef1e4634-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamosat-downloader_git.bb
 Description: Enigma2 Plugin DreamOSat Downloader For Images by audi06_19
 OE: enigma2-plugin-extensions-dreamosat-downloader
@@ -8694,15 +8736,15 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-script
-Version: git44+3e7bf930+3e7bf935ec-r0
+Version: git45+24ef1e40+24ef1e4634-r0
 Depends: curl, libc6 (>= 2.38+git0+1e04dcec49), libcurl, p7zip, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: d3d8b4579b01dc6204f098a99335e400
-SHA256sum: c966a74bf92c08f7345e26665d9f065d88fcf6cbbaac56bf15dac4e38f3a07fd
-Size: 1299746
-Filename: enigma2-plugin-extensions-dreamosat-script_git44+3e7bf930+3e7bf935ec-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f9d52a8972c13cb657bc84ad7fefff17
+SHA256sum: e90e6c93a23457d803429e31412b29df83c85ce964056e6b017dd5f125acb53c
+Size: 1299748
+Filename: enigma2-plugin-extensions-dreamosat-script_git45+24ef1e40+24ef1e4634-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamosat-script_git.bb
 Description: Enigma2 Plugin DreamOSat Script For Images by audi06_19
 OE: enigma2-plugin-extensions-dreamosat-script
@@ -8711,15 +8753,15 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdbackup
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: dvdbackup, libdvdread
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5e6039f0bcc2ac4c4989245d3d1ddf70
-SHA256sum: aa755211848e8f466e701a7271d41936265178b7aa34064ca59d939309dd4932
-Size: 34462
-Filename: enigma2-plugin-extensions-dvdbackup_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 472d77765fb617dc39680426dff879d4
+SHA256sum: c857de634e20c79be9a273b31670a324065e3a863ce92c768dfa207a1750a2ab
+Size: 34468
+Filename: enigma2-plugin-extensions-dvdbackup_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dvdbackup
 OE: enigma2-plugins
@@ -8727,14 +8769,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dyndns
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 932be979479c594e416f028047a92553
-SHA256sum: 7bf494a7be8995fd5fe4b1bf323f5c5d6e50150a957bbe756bb415dea92e84b5
-Size: 11716
-Filename: enigma2-plugin-extensions-dyndns_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 89d2d02415783c7262c8270ca272dbf6
+SHA256sum: e1693558d432d92608c45356b460de8e68193740b3c60ccf840ad5d983a199ee
+Size: 11718
+Filename: enigma2-plugin-extensions-dyndns_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dyndns
 OE: enigma2-plugins
@@ -8842,14 +8884,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-easyinfo
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e25882206a39676efd22e8b2e68b63de
-SHA256sum: 0a34a2ee5561d459767781083752791fdaa50010fee63d86dda2f67d4f307520
-Size: 54598
-Filename: enigma2-plugin-extensions-easyinfo_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 43381f0036f25f2c78dd3204b6328e9e
+SHA256sum: 595ad6c5a7b509908eba3a60c2c5404a97b4ad6520f4545dc13ec68234eec2c6
+Size: 54596
+Filename: enigma2-plugin-extensions-easyinfo_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-easyinfo
 OE: enigma2-plugins
@@ -8857,14 +8899,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-easymedia
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e9f4f57b502d919d7e6b42e0eb253a15
-SHA256sum: cbb7a6857970e6dabae3933c5ca924d4220b08ae2c24c7755590e2b7b4451de6
-Size: 96818
-Filename: enigma2-plugin-extensions-easymedia_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5b285f30d33c20cd6302df607735965e
+SHA256sum: b61ecd4e9216009df5b64dcb3d97fb75c042aa26d7c4c6abb0c87f23e5c3984d
+Size: 96822
+Filename: enigma2-plugin-extensions-easymedia_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-easymedia
 OE: enigma2-plugins
@@ -8872,14 +8914,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-eibox
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6b1a122af497e698b9f6e809bda4a52b
-SHA256sum: 470e0e289e2e23c591f8815016eb4622316b9ec7110ab15cce6ae4f6be13db2f
-Size: 78708
-Filename: enigma2-plugin-extensions-eibox_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4590136c811a63c9e3aa9e1569bb974d
+SHA256sum: 96d458aeed877b338ec3feaf6fe148c30dcccc893b11a69ea09af480ada3105d
+Size: 78712
+Filename: enigma2-plugin-extensions-eibox_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-eibox
 OE: enigma2-plugins
@@ -8887,14 +8929,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-elektro
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4837c71f3a4cd19807e7880709a504f6
-SHA256sum: df95a60e7ac9c8f952dda137758783a5ff2d94f71a56079588140b311b31c445
-Size: 54166
-Filename: enigma2-plugin-extensions-elektro_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4bc00a2b2e49e3fa39df74ac6d59c68c
+SHA256sum: 17b049984320177414fb1f5e95b1daeff133cbb576a3f1fd2238c2ae27a377b5
+Size: 54162
+Filename: enigma2-plugin-extensions-elektro_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-elektro
 OE: enigma2-plugins
@@ -8902,15 +8944,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-emailclient
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-email, python3-pyopenssl, python3-shell, python3-twisted-mail, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3a49178784acd7071c9789533b59c590
-SHA256sum: 4f7d6df56962475b0f6e0187e13ec1e6c676b403075e7dcb524b7b963f401a01
-Size: 70722
-Filename: enigma2-plugin-extensions-emailclient_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 21a240fe08a674ddc75cacece1eb7638
+SHA256sum: 1a9c327e4834e1be15921a8190d16d6f6799be0fb3df28de8730d3233535b15c
+Size: 70724
+Filename: enigma2-plugin-extensions-emailclient_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emailclient
 OE: enigma2-plugins
@@ -8965,15 +9007,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgrefresh
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugin-systemplugins-mphelp, python3-codecs, python3-difflib, python3-xml
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8870d9af1dff44f34c9b8b3d945f438d
-SHA256sum: 3b8b5d2b8a04809a51c95a569be092e65907ddb63b08b0a01d5e647311fa0f9f
-Size: 141676
-Filename: enigma2-plugin-extensions-epgrefresh_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6f7d513f6e9c9c3fbf3c3d3eb505ebc2
+SHA256sum: 84f3abf4d0fe1ad4b2e2784551f66f3199a2e940f3e544fa9f87271d0d2ddbc8
+Size: 141708
+Filename: enigma2-plugin-extensions-epgrefresh_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgrefresh
 OE: enigma2-plugins
@@ -8981,14 +9023,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgsearch
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bb23a393ded48bb0bd7f6cacab154aa8
-SHA256sum: 6f9bfe7adb2f804cf07e182bfb98380b87fc5d536e05deca69dabd111eabf09a
-Size: 95874
-Filename: enigma2-plugin-extensions-epgsearch_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 08a57229fcca9310e8caefee28c3a1e0
+SHA256sum: 45d2ce045d6a56dbe025e00b911b3f5b0179dca5a9c9ba2f621a2849f359f8a8
+Size: 95872
+Filename: enigma2-plugin-extensions-epgsearch_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgsearch
 OE: enigma2-plugins
@@ -8996,15 +9038,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-fancontrol2
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: hdparm, smartmontools
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 05649154053a0584d2a07f8f53e5af76
-SHA256sum: b24a5127ad4e0299b4a78a5c2dd05f48cb9d5e24f20ef80a39c77bb86976685b
-Size: 141116
-Filename: enigma2-plugin-extensions-fancontrol2_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c50fec0cc5396c2300879039db628286
+SHA256sum: 5fc4b7447acff5257ef14d45148577b3dd2a40a1642846e91b0a412a2ee23327
+Size: 141112
+Filename: enigma2-plugin-extensions-fancontrol2_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fancontrol2
 OE: enigma2-plugins
@@ -9012,14 +9054,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-filebrowser
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 037a7f1d8f8e354fc8f0f8f5c090600f
-SHA256sum: ab91be8f4581900712ad3eab8d6fd45efb580ab8d08859cd7d14904c85180958
-Size: 24330
-Filename: enigma2-plugin-extensions-filebrowser_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 64d448f8d9000c570ef5fbca14aa7b3b
+SHA256sum: e9c71933e6ecf9f5243afabedc41b354d274831ca88a65e8e05670cf75f4e9dd
+Size: 24328
+Filename: enigma2-plugin-extensions-filebrowser_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-filebrowser
 OE: enigma2-plugins
@@ -9027,63 +9069,61 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander-dbg
-Version: 2.0+git200+76d59460+76d5946ce2-r1
+Version: 2.0+git200+76d59460+76d5946ce2-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c0f5f3c1c0a72bc7453ab4b437121d9
-SHA256sum: 1af7e3e4c2d40596a0cb087c4eaea335cff90880b890d289d9e0a61561f3ad56
+MD5Sum: 0267a86be78c312733b04a4995470f72
+SHA256sum: c8d46b72e976258f1b3b82f9560b6adfc88ce52dc63c9b7d41fc5d1c5845ea41
 Size: 640
-Filename: enigma2-plugin-extensions-filecommander-dbg_2.0+git200+76d59460+76d5946ce2-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-filecommander-dbg_2.0+git200+76d59460+76d5946ce2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-filecommander.bb
-Description: enigma2-plugin-extensions-filecommander version 2.0+git-r1 - Debugging files
+Description: enigma2-plugin-extensions-filecommander version 2.0+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-filecommander
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander-dev
-Version: 2.0+git200+76d59460+76d5946ce2-r1
-Recommends: enigma2-plugin-extensions-filecommander (= 2.0+git200+76d59460+76d5946ce2-r1), python3-core-dev, python3-dev
+Version: 2.0+git200+76d59460+76d5946ce2-r0
+Recommends: enigma2-plugin-extensions-filecommander (= 2.0+git200+76d59460+76d5946ce2-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84fe4e99d30b4b24610ec163d864f40b
-SHA256sum: 1ed16ab5eb75ec0c254c4657bf91bf2deec9fc950e88b0fdccea4b944ac09f05
+MD5Sum: 0ca5289d4f0ac3f615c754fcaac875b8
+SHA256sum: eac2f7f9dd1f7eaa73ffcec223eadf39e8f2ade4eeab3a0898e74ce2de0e8e71
 Size: 686
-Filename: enigma2-plugin-extensions-filecommander-dev_2.0+git200+76d59460+76d5946ce2-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-filecommander-dev_2.0+git200+76d59460+76d5946ce2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-filecommander.bb
-Description: enigma2-plugin-extensions-filecommander version 2.0+git-r1 - Development files
+Description: enigma2-plugin-extensions-filecommander version 2.0+git-r0 - Development files
 OE: enigma2-plugin-extensions-filecommander
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 2.0+git200+76d59460+76d5946ce2-r1
+Version: 2.0+git200+76d59460+76d5946ce2-r0
 Depends: python3-core
-Replaces: enigma2-plugin-pli-filecommander
-Conflicts: enigma2-plugin-pli-filecommander
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06053a6a078a60db7f6b4e3f75da919d
-SHA256sum: 8d9cb53ce08eb5c364bc774abae76f5cbb6f11b8fd0e607acf6c00e3d77413ed
-Size: 273960
-Filename: enigma2-plugin-extensions-filecommander_2.0+git200+76d59460+76d5946ce2-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0775843c1c51b32f8f7a73e69316408f
+SHA256sum: b3b894bb5944f13fca11e42813ed7bd2ee65b54e98354849eb6aa6488c9cafb1
+Size: 273940
+Filename: enigma2-plugin-extensions-filecommander_2.0+git200+76d59460+76d5946ce2-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-filecommander.bb
-Description: enigma2-plugin-extensions-filecommander version 2.0+git-r1
+Description: enigma2-plugin-extensions-filecommander version 2.0+git-r0
 OE: enigma2-plugin-extensions-filecommander
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-fstabeditor
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 794d3f698371b680564ba2552261888e
-SHA256sum: 896d8374062c461e4c83d1d9a5ae064cf2dc2caad69893c551c974650641c314
+MD5Sum: f05caf9124fcd6023d58b4c49f0fd2c3
+SHA256sum: 303f888e46e3db47e2229b6fbaeb8da78282c125552e36ee602397de96c2ef46
 Size: 23768
-Filename: enigma2-plugin-extensions-fstabeditor_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-fstabeditor_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fstabeditor
 OE: enigma2-plugins
@@ -9091,15 +9131,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ftpbrowser
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-shell, python3-twisted-protocols
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 821d699a6f095cbaef2fb2085305be9a
-SHA256sum: 776d9611f8fe6efb75265a9846f0e25734a8278d5f4a21618c10e95662b77bf0
-Size: 55572
-Filename: enigma2-plugin-extensions-ftpbrowser_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ac27744045f29651c576b98f2c94f47c
+SHA256sum: beba5ce15d3f11e4fef2b9139d71d6c4f2f565bd653ddc5f28f5830a9d9d3f6b
+Size: 55568
+Filename: enigma2-plugin-extensions-ftpbrowser_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser
 OE: enigma2-plugins
@@ -9107,15 +9147,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-growlee
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-protocols
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ae6f96d5d01cf3056fb12b97921113c6
-SHA256sum: 8d8b6e8249b9b21a87091b23c1d304a277bad899dfa4a27b931f3c41a445123e
-Size: 26858
-Filename: enigma2-plugin-extensions-growlee_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c103d8fbd7add0e3821488a6a931f652
+SHA256sum: 3938b7288cfb2bd8633bd49ffc1b93bb322ebebcd24d1fa54ef7ea57968960c0
+Size: 26862
+Filename: enigma2-plugin-extensions-growlee_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-growlee
 OE: enigma2-plugins
@@ -9123,15 +9163,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-httpproxy
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 91dbd4d1b00920b639265b8491e24b18
-SHA256sum: 1dd8e07eaed575178de0f1c14d533242887e8a443fc0af566afee941b5a4725d
-Size: 7636
-Filename: enigma2-plugin-extensions-httpproxy_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 054f5bf4605f3ae1963c0ae04191414f
+SHA256sum: 5044d926d4c6278edb920dece77636e0f35dcd299e66beba3f38fac83223c501
+Size: 7638
+Filename: enigma2-plugin-extensions-httpproxy_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-httpproxy
 OE: enigma2-plugins
@@ -9139,15 +9179,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-imdb
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-html, python3-requests, python3-six, python3-twisted-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6f3b8505a583c14e523f5b69bf3fed21
-SHA256sum: 2e1d1bac9a23faf9bf39be14cdfb9c73584c97566bfb494114f1fc58d9422cea
-Size: 92460
-Filename: enigma2-plugin-extensions-imdb_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c0751f774bb174f8d5f219656c040c01
+SHA256sum: 2fa52ed310a587a7d5d4e3f643385e5bc4bdf4f67af1269fe0bc93e4d4ee1e00
+Size: 92454
+Filename: enigma2-plugin-extensions-imdb_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-imdb
 OE: enigma2-plugins
@@ -9202,14 +9242,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-kiddytimer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 07fb61473d4e419f7178499cd8de954d
-SHA256sum: 7a07c92007a76f4c18cd505f48a820d164d44edda062936bbd307a600f0308a6
-Size: 117772
-Filename: enigma2-plugin-extensions-kiddytimer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f886a15c595b04501f7bace41a75d3d2
+SHA256sum: 5deed35185bc47a363dd16507c6dce659a30772c00fd51e42d67ed366594b4fe
+Size: 117752
+Filename: enigma2-plugin-extensions-kiddytimer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-kiddytimer
 OE: enigma2-plugins
@@ -9217,15 +9257,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-lcd4linux
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: png-util, pydpflib, python3-codecs, python3-ctypes, python3-datetime, python3-email, python3-icalendar, python3-image, python3-mutagen, python3-pillow, python3-pyusb, python3-requests, python3-shell, python3-simplejson
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 702b2d69cffd7c88ae54d7b010a7ae1e
-SHA256sum: 373ecbfef1c0fa26f25ee775f7e12aea14a73f88d44bb9d0b1f3c3d73d1b0117
-Size: 1449328
-Filename: enigma2-plugin-extensions-lcd4linux_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: be7d7cc29fcade6e343b75a52b2a1944
+SHA256sum: 726b15e82a98e8b1c51f2abfe1b2e402befdc936b193c83bfbf9367b6cf327c4
+Size: 1449434
+Filename: enigma2-plugin-extensions-lcd4linux_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-lcd4linux
 OE: enigma2-plugins
@@ -9233,14 +9273,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-letterbox
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e63a52f6d161c6669bffc32519e41488
-SHA256sum: c47a66c980d1e98b1a8f6c094334a4b4a631a0d9f3d2ff44c5f067cc9f9e58d9
-Size: 3212
-Filename: enigma2-plugin-extensions-letterbox_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 77ca1f864a488829f34fec77f0079ab0
+SHA256sum: a421b88e8f211c5fbbb13baae0e670689c63e66d7b6e6dde56d3ef11e5871e9d
+Size: 3214
+Filename: enigma2-plugin-extensions-letterbox_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-letterbox
 OE: enigma2-plugins
@@ -9248,15 +9288,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-logomanager
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d93d83710f08a40b1293fc819ab17e73
-SHA256sum: 672929a2c574090377274306286e16767d300dd3483cf0b65ffa30814d8f7312
+MD5Sum: 2807cc7dda26f9d29257ad43ac1845b7
+SHA256sum: f4bfaf00cea7fd82281df0effdfdd259af9fa88cd258f7b84668a0d53cc6e186
 Size: 22002
-Filename: enigma2-plugin-extensions-logomanager_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-logomanager_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-logomanager
 OE: enigma2-plugins
@@ -9264,15 +9304,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediadownloader
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-netclient, python3-shell, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6dd9ea847199fb0bd2ef0bf6686dea8f
-SHA256sum: 4c76c3acdb2e506849772d211ff54f7a8eb8b29bc18912b34b5babd6c6bcce66
-Size: 22792
-Filename: enigma2-plugin-extensions-mediadownloader_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 04ad51c97d30d101d6caa2e30c8785c8
+SHA256sum: 9b9975f86c3e5df0a9b284f421fa0f97a7b71b14712c6a7a17a7eca04835e6a1
+Size: 22800
+Filename: enigma2-plugin-extensions-mediadownloader_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mediadownloader
 OE: enigma2-plugins
@@ -9280,14 +9320,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-merlinepg
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ccdfc3a59125b350f9c7a61c0a147062
-SHA256sum: 26b99c0134dc4bc6d724dbd1461c79b8fa63392dc17a71000ac80567529c6b2e
-Size: 154238
-Filename: enigma2-plugin-extensions-merlinepg_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 80fc18c4c4e0b1f8225e5a2c60829739
+SHA256sum: b4302b9524ad8fb31102a9c8bd9ab410f37d43cb47abf6791146cbfd3476d199
+Size: 154240
+Filename: enigma2-plugin-extensions-merlinepg_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinepg
 OE: enigma2-plugins
@@ -9295,15 +9335,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-merlinepgcenter
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7afa11a3aafc9bb121fb74c6a0a85a75
-SHA256sum: ee0904054f11a42c030942b8979759ce6c91dcacb5c0b1bb86e0d9553c445a1e
-Size: 134070
-Filename: enigma2-plugin-extensions-merlinepgcenter_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b7bea159e2bf8d5c0069f6c7a0014091
+SHA256sum: a410723e697953f75ae397c3065eef3c5b6af15d9a6042ebe2afe60d9bfb73f8
+Size: 134082
+Filename: enigma2-plugin-extensions-merlinepgcenter_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinepgcenter
 OE: enigma2-plugins
@@ -9311,15 +9351,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-merlinmusicplayer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-mutagen, python3-sqlite3, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 12ca66480edc4aa8b3280de1963e205b
-SHA256sum: 9ae52b11adfcb43927522db9eca299ca69da07ebbba2de4bf8c7bc0443a68de4
+MD5Sum: 9334f0b10c4ab290c64d192bd015e258
+SHA256sum: 470bdd64bfad1bf1d538cfcd9b2735cb4269c3eda703188ee7e5edfc469b8241
 Size: 131384
-Filename: enigma2-plugin-extensions-merlinmusicplayer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-merlinmusicplayer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinmusicplayer
 OE: enigma2-plugins
@@ -9327,15 +9367,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-mosaic
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: aio-grab (>= 0.8cvs20081209)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ada09194a1961dd522c528e6810c4147
-SHA256sum: 2eb7ac13f17e283f418115ece317efa1dde5684d48f4656fa2fda09dadbdc448
-Size: 17886
-Filename: enigma2-plugin-extensions-mosaic_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 0e821a4ccba744bb0571dce9043cc60e
+SHA256sum: c97e5bbde560222f2d0a46b62a753309e5641e5aa0b282c613fcf39fb81bd399
+Size: 17890
+Filename: enigma2-plugin-extensions-mosaic_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mosaic
 OE: enigma2-plugins
@@ -9343,15 +9383,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-moviecut
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: libc6 (>= 2.38+git0+1e04dcec49), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9d873db1c876e23987f364c1bc8a5ce3
-SHA256sum: ff536b2df89d9f9a42fa6248ac6a6ca37610eb101c872f81b6180ea7b15baacd
-Size: 38116
-Filename: enigma2-plugin-extensions-moviecut_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: aa958afe448b873b5ed5222f8279172e
+SHA256sum: a30e29dd68ccea555c92841557199768bc7486664fe1d8e50d0785c991c6c969
+Size: 38130
+Filename: enigma2-plugin-extensions-moviecut_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviecut
 OE: enigma2-plugins
@@ -9359,14 +9399,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-movieretitle
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f74778b7dc64bb10c4085284f3ade353
-SHA256sum: 7de1d3a140d0c5c11ba59bb3a95676c2ceb869b590785ff16a1502dd559c357d
-Size: 19410
-Filename: enigma2-plugin-extensions-movieretitle_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 01004f20e47e8297cf471b4b1a3b99e1
+SHA256sum: a352087b5e2d7a6589a0c4e325009450f6d96a7671e1f0ac40a40cc07dc7ca05
+Size: 19420
+Filename: enigma2-plugin-extensions-movieretitle_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-movieretitle
 OE: enigma2-plugins
@@ -9374,14 +9414,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-movietagger
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8c72260cf3b670f36c7e6507df0ceb82
-SHA256sum: 4257bce119caa1d1fa5c44c532237437057bbdd07995251cd3dd0343d78eced0
-Size: 16110
-Filename: enigma2-plugin-extensions-movietagger_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 62e3962ba967c088706b78703a45e43e
+SHA256sum: 52e99b6df0ba3b7277ecb623362576161d9ce8d90c1b5beafc7bd236dbf6d958
+Size: 16112
+Filename: enigma2-plugin-extensions-movietagger_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-movietagger
 OE: enigma2-plugins
@@ -9389,14 +9429,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-multirc
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7d05d1508895bc9e4a8ad2994b57374d
-SHA256sum: e2c45e01a735420f9faf1bfd668a56a3affc3398934f2c2eaa56c37ba8c809c6
-Size: 6090
-Filename: enigma2-plugin-extensions-multirc_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f03d4e86c73ae1efdc85945a9603f5aa
+SHA256sum: 683988007be769b3cbd4094e15452a162916674d130d911bee113180e42de776
+Size: 6098
+Filename: enigma2-plugin-extensions-multirc_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-multirc
 OE: enigma2-plugins
@@ -9420,15 +9460,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-ncidclient
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-html, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9e0f5373f5112cc39d1aae7cf6ec34d0
-SHA256sum: d3337cf572d779ed99df8246d38013e1dab8381980a72d59d57edd75a3f2445b
-Size: 154794
-Filename: enigma2-plugin-extensions-ncidclient_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1ea8bf84ed018280e0bd550636c80fbc
+SHA256sum: 7aef759bbf9d6c384636c19a831dc7c9ed1d47b5b1cb0db3472c6111c2b11ab6
+Size: 154798
+Filename: enigma2-plugin-extensions-ncidclient_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ncidclient
 OE: enigma2-plugins
@@ -9436,14 +9476,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-netcaster
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 220384b309743c63baa9a5a145a5e769
-SHA256sum: 41b6cc856efac5cc54e98a414e6891fb5480038d74d2b61ee1a347d88b01e2e5
-Size: 33268
-Filename: enigma2-plugin-extensions-netcaster_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: fad83e8589fb2a2c592be57c70eca994
+SHA256sum: 8659f4a0ed69a9539ad46b98bb067ad7e517497750158b95c5e1491e3f814c72
+Size: 33270
+Filename: enigma2-plugin-extensions-netcaster_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-netcaster
 OE: enigma2-plugins
@@ -9451,15 +9491,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-netzkino
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-requests
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c2f6c8f76ee1ba088b14658509efe93e
-SHA256sum: 3986f01dc86daf3de4649b41fbf80b7e98d538564ef5015a8140fd9feab14c7e
-Size: 13680
-Filename: enigma2-plugin-extensions-netzkino_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ca70d5e65d35ccedd27bee9239d72cb6
+SHA256sum: 59606e934f0623795e0832cb80c5f5e93331de3a66e8010f5150556ef812edca
+Size: 13678
+Filename: enigma2-plugin-extensions-netzkino_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-netzkino
 OE: enigma2-plugins
@@ -9467,15 +9507,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ofdb
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-html, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 622c9aed954a1845284edd278c598704
-SHA256sum: 6bfaa7716d67c1bd7d7d1cdec73c24c9509e7f22a0a0f9992911246ee1d08ed9
-Size: 37012
-Filename: enigma2-plugin-extensions-ofdb_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1a0d1edc405bddc3384dc8719eed7cf5
+SHA256sum: eab83cfd7765e39c55c06e6e2d21d7302c02cf743900e03af0e8bf3d2dfb5daf
+Size: 37018
+Filename: enigma2-plugin-extensions-ofdb_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ofdb
 OE: enigma2-plugins
@@ -9483,15 +9523,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-orfat
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugin-extensions-vlcplayer, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 98bf008d140c9ec7438a24cb779c584d
-SHA256sum: 108eb5921b58a848dd3a51e1d93ce8ee9c2186b01ec64283eddf686d03868545
-Size: 24862
-Filename: enigma2-plugin-extensions-orfat_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e1e57a3c5b5f11cd1c6d8c0766f9bb00
+SHA256sum: d7dcc6d22b607b19fc4beaec42ff7481a3f7cdc00a1aa61fabac5b852a393d39
+Size: 24860
+Filename: enigma2-plugin-extensions-orfat_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfat
 OE: enigma2-plugins
@@ -9499,14 +9539,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-orfteletext
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5f225d11961086ceb89841b94910ac67
-SHA256sum: 622079989936e4245d670cb9ca0f0b1a82d1530d44f0c1cbab5dff61b507fe83
-Size: 9100
-Filename: enigma2-plugin-extensions-orfteletext_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 24307b5930c2a4f53aa14801d7cb59b0
+SHA256sum: 5438390759cd1dc5790dd1076eae9415397e6ae391ee04af57758b40efd59768
+Size: 9102
+Filename: enigma2-plugin-extensions-orfteletext_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfteletext
 OE: enigma2-plugins
@@ -9514,15 +9554,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-partnerbox
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 13b73a159ceb6b8a3b85ff57eb6cf875
-SHA256sum: a4bb053f1a5ff1a82fe6ba59e79813bff06d2bfb26a97e8ddc05c1af37325141
-Size: 201060
-Filename: enigma2-plugin-extensions-partnerbox_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 972918e172a99f5676fe9aaab3a326dc
+SHA256sum: 948c9d2fcec7553bf4e583c0a684e9952d30fb3f8709d47fbb44e1a0150b41ef
+Size: 201052
+Filename: enigma2-plugin-extensions-partnerbox_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-partnerbox
 OE: enigma2-plugins
@@ -9530,14 +9570,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-permanentclock
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 00972aa31098c67de4879002728dd79c
-SHA256sum: a0f2a53a67edc781077779df467f070602030386d757a110d6a5aa2991a94126
-Size: 44054
-Filename: enigma2-plugin-extensions-permanentclock_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 54bb5b70e570023f1f0549a5d518d7ba
+SHA256sum: 4babd86b69377b8f2d9e36ef327caf8a2ff87141f73425a5bd04938c14465042
+Size: 44086
+Filename: enigma2-plugin-extensions-permanentclock_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-permanentclock
 OE: enigma2-plugins
@@ -9545,15 +9585,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-porncenter
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 114cb24df6e7917204b7824291f3cb01
-SHA256sum: 7f2af3c771c22e54583290dc25576ca0db536bac69ab5c37354185d4a60e8415
-Size: 110052
-Filename: enigma2-plugin-extensions-porncenter_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 07d2c90fffac6000dc430bffb900e8a4
+SHA256sum: 1730d39d12942c2460f70fbe48937e5915fd020c4db5ba17a3fd5cbd321e94d2
+Size: 110048
+Filename: enigma2-plugin-extensions-porncenter_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-porncenter
 OE: enigma2-plugins
@@ -9561,15 +9601,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-primetimemanager
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e1b813627fdc58a3a4e73fc57fbdad85
-SHA256sum: 6d11fca96e96ab6e7ca0d1e07bb4d6198455ba9fdab6113372f6a2d275765768
-Size: 132770
-Filename: enigma2-plugin-extensions-primetimemanager_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f050ebb80c85cf88ec784f1f8f3f9128
+SHA256sum: dfce667bed630f59950acffe88b6aeb5accc7f7f4a374bd97ee54c1bdb922cbb
+Size: 132772
+Filename: enigma2-plugin-extensions-primetimemanager_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-primetimemanager
 OE: enigma2-plugins
@@ -9577,14 +9617,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-reconstructapsc
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 868d2b9da1a59ee522d38571089b00db
-SHA256sum: 1cbb1afe39d7250792b3da33a1e55f39655615745670487edd8dd992bb04f2b3
-Size: 8108
-Filename: enigma2-plugin-extensions-reconstructapsc_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 36ef3319c70057f5598c2c234ca55117
+SHA256sum: ced74090fd30bf63d2a060fc3eab9bb37005e1ac67f502da69f73382d780f5a6
+Size: 8112
+Filename: enigma2-plugin-extensions-reconstructapsc_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-reconstructapsc
 OE: enigma2-plugins
@@ -9592,14 +9632,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-seekbar
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2fcc0e86733c3c98dab7230edb51e7a5
-SHA256sum: 50fe125169ace1155c01ad8d73d8e0d6981d2d242191188be2905fbdddde2116
-Size: 15138
-Filename: enigma2-plugin-extensions-seekbar_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1fa336de356e191aa93450de6b5b94be
+SHA256sum: 4d75a75044290e97fed7643d4c21265544b773af9561574106a3036224656655
+Size: 15144
+Filename: enigma2-plugin-extensions-seekbar_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-seekbar
 OE: enigma2-plugins
@@ -9607,15 +9647,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-shoutcast
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-requests, python3-treq, streamripper
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4c54e73b738679aaef810d1a107788ef
-SHA256sum: 9eb1455256dd0aea4f92ed50552f6c4348ed098962d4a049fb9cc32e105c4f46
-Size: 65246
-Filename: enigma2-plugin-extensions-shoutcast_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a6ef3b0f78eaea7913b48da488bfb02d
+SHA256sum: e7ab9351c1f0b858d72f86d88b0b57ade5159e2c2c82d9ef1c4147e91c245a6e
+Size: 65244
+Filename: enigma2-plugin-extensions-shoutcast_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-shoutcast
 OE: enigma2-plugins
@@ -9623,14 +9663,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-showclock
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5b8cd21c058b69836db76f90f16e22a4
-SHA256sum: de0293851241842d9f779c87d175ffb9052f248d8c733296f3d670ae5e71c06d
+MD5Sum: 8b50641cb6ce2bac617bef236d756185
+SHA256sum: d8e603923f97440fa90f93c03650a93e7cd8d5fc35129942868a08eeb0ebd92e
 Size: 21664
-Filename: enigma2-plugin-extensions-showclock_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-showclock_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-showclock
 OE: enigma2-plugins
@@ -9638,15 +9678,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-simplerss
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugin-extensions-mediadownloader, python3-codecs, python3-html, python3-requests, python3-twisted-web, python3-xml
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 977e0ba15d04a63e3ebdeee6ee34accc
-SHA256sum: 446a2e52e512122168101ff86f57734bcd643d84a7e3d51d480fe29f2e3c1a38
-Size: 68262
-Filename: enigma2-plugin-extensions-simplerss_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5b94373e556c2a1a2d23be43631a2687
+SHA256sum: dd41b153409ccd34f1b4d2475cf4e6d5bce4907cd74e42c42e404233f6713fa7
+Size: 68256
+Filename: enigma2-plugin-extensions-simplerss_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-simplerss
 OE: enigma2-plugins
@@ -9654,15 +9694,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-srfmediathek
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-html, python3-requests, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f6720d9e94d253905254ea24b0e20f78
-SHA256sum: 50f80086f75d3a9f64c121cd8e35c717e803964a69a28108a11f0818be5374e6
-Size: 60258
-Filename: enigma2-plugin-extensions-srfmediathek_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5c41a2bc582d8778256261e6c65a7b6c
+SHA256sum: 534af0c023b28944addcf3182bcf39753aa0851fbee3ced209ed93502f613eb4
+Size: 60262
+Filename: enigma2-plugin-extensions-srfmediathek_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-srfmediathek
 OE: enigma2-plugins
@@ -9670,14 +9710,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport-dbg
-Version: 1.5.8+git161+7d583fe0+7d583fe937-r0
+Version: 1.5.8-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfbd90f7942b86023393def1419531c1
-SHA256sum: 89a4a88013826c6f3013bf8393f43277c08eb2d6488bc4034aa3747df792d90d
-Size: 666
-Filename: enigma2-plugin-extensions-subssupport-dbg_1.5.8+git161+7d583fe0+7d583fe937-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 68e0fb779520aa708d899814d9ade562
+SHA256sum: c49354f8a4c47920628074bb7e69e618f5da9eb3699b5c789fb72752f720df09
+Size: 648
+Filename: enigma2-plugin-extensions-subssupport-dbg_1.5.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-subssupport_1.5.8.bb
 Description: Collection of enigma2 subtitles plugins - Debugging files
 OE: enigma2-plugin-extensions-subssupport
@@ -9686,15 +9726,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport-dev
-Version: 1.5.8+git161+7d583fe0+7d583fe937-r0
-Recommends: enigma2-plugin-extensions-subssupport (= 1.5.8+git161+7d583fe0+7d583fe937-r0), python3-codecs-dev, python3-compression-dev, python3-difflib-dev, python3-rarfile-dev, python3-xmlrpc-dev, unrar-dev
+Version: 1.5.8-r0
+Recommends: enigma2-plugin-extensions-subssupport (= 1.5.8-r0), python3-codecs-dev, python3-compression-dev, python3-difflib-dev, python3-rarfile-dev, python3-xmlrpc-dev, unrar-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 02a77781f6177992f0684dd0c6e312e3
-SHA256sum: 78da3023b715e05346039de2ff4e2b2ff94a83eb30055ff37f5112f056816540
-Size: 748
-Filename: enigma2-plugin-extensions-subssupport-dev_1.5.8+git161+7d583fe0+7d583fe937-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8e4432645270ed564e2b5621f214015e
+SHA256sum: d657ba0d4b57f4d7eae47290d80f87b5d3d46e0fb54b6edb9a0b17cfc01ee1d6
+Size: 728
+Filename: enigma2-plugin-extensions-subssupport-dev_1.5.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-subssupport_1.5.8.bb
 Description: Collection of enigma2 subtitles plugins - Development files
 OE: enigma2-plugin-extensions-subssupport
@@ -9703,15 +9743,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.5.8+git161+7d583fe0+7d583fe937-r0
+Version: 1.5.8-r0
 Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fada44c9702da0133880ff8cb3075b94
-SHA256sum: 60b99d5e58075cc00c4f5745e33b28212fe326b45b37b76e6b33aa8d3d0f06ff
-Size: 728054
-Filename: enigma2-plugin-extensions-subssupport_1.5.8+git161+7d583fe0+7d583fe937-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 17fa127a3613ecfd492f0dda356cc3a1
+SHA256sum: 9f9fe67bf4a5acbf22c976479452941ec5fc95a4b0eee37d0d638f8c2d66dd12
+Size: 752740
+Filename: enigma2-plugin-extensions-subssupport_1.5.8-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-subssupport_1.5.8.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions-subssupport
@@ -9720,15 +9760,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-svdrp
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-protocols
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7b23847e91639fcae3fc260fd0bfe8c1
-SHA256sum: a510a76d59613c9e87eae9542f0dd46479260e623456b5a9700d913e6531401b
-Size: 20410
-Filename: enigma2-plugin-extensions-svdrp_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: ec837dc74f0a611369b300c50f1625a0
+SHA256sum: 480ff3db4192476b09d8256ce6a337859d5fb12d395682d19eafd93a570803c0
+Size: 20414
+Filename: enigma2-plugin-extensions-svdrp_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-svdrp
 OE: enigma2-plugins
@@ -9736,63 +9776,61 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-systemtools-dbg
-Version: 2.0+git28+88dbcac0+88dbcac492-r1
+Version: 2.0+git28+88dbcac0+88dbcac492-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1a2055c4f36d142467c39cded8002ff
-SHA256sum: 005e26f5de5bae1d8ce8a113876b7bd2bc4e35ca97c9f96823b02e6bbdc96434
+MD5Sum: 6ae0a71cf99bc9c7bf6933671269c169
+SHA256sum: bfc0f65e1de1b695827929f3bb166f068f892f030c6ba2335f20a67f09dd7151
 Size: 632
-Filename: enigma2-plugin-extensions-systemtools-dbg_2.0+git28+88dbcac0+88dbcac492-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-systemtools-dbg_2.0+git28+88dbcac0+88dbcac492-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-systemtools.bb
-Description: enigma2-plugin-extensions-systemtools version 2.0+git-r1 - Debugging files
+Description: enigma2-plugin-extensions-systemtools version 2.0+git-r0 - Debugging files
 OE: enigma2-plugin-extensions-systemtools
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-systemtools-dev
-Version: 2.0+git28+88dbcac0+88dbcac492-r1
-Recommends: enigma2-plugin-extensions-systemtools (= 2.0+git28+88dbcac0+88dbcac492-r1), python3-core-dev, python3-dev
+Version: 2.0+git28+88dbcac0+88dbcac492-r0
+Recommends: enigma2-plugin-extensions-systemtools (= 2.0+git28+88dbcac0+88dbcac492-r0), python3-core-dev, python3-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 211153585441ffc85889113cda9585f8
-SHA256sum: a05d3af9aeef1bde566de92f9a66e4d494c02084bb4418c3910046bc8273b74a
+MD5Sum: b6aff594ed3ff3f8882106a2de7c16c6
+SHA256sum: 1f9b05a364eeabe844ccf4ea778a7b525e4ba98efed1bd5379a16a2f63f43099
 Size: 678
-Filename: enigma2-plugin-extensions-systemtools-dev_2.0+git28+88dbcac0+88dbcac492-r1_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-systemtools-dev_2.0+git28+88dbcac0+88dbcac492-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-systemtools.bb
-Description: enigma2-plugin-extensions-systemtools version 2.0+git-r1 - Development files
+Description: enigma2-plugin-extensions-systemtools version 2.0+git-r0 - Development files
 OE: enigma2-plugin-extensions-systemtools
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-systemtools
-Version: 2.0+git28+88dbcac0+88dbcac492-r1
+Version: 2.0+git28+88dbcac0+88dbcac492-r0
 Depends: python3-core
-Replaces: enigma2-plugin-pli-systemtools
-Conflicts: enigma2-plugin-pli-systemtools
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5dc1314782cee8b31e530994735f588f
-SHA256sum: e2a371921620d420f22fea937046b3c03c032533890a53171d0894e8e20988bf
-Size: 20292
-Filename: enigma2-plugin-extensions-systemtools_2.0+git28+88dbcac0+88dbcac492-r1_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 1feb1a335b3eb0d1b9a469d15a8a21b9
+SHA256sum: 967fa145552d926a0ddc4cf4359f41713c39269a776ce2c12819d98b2154c0c3
+Size: 20272
+Filename: enigma2-plugin-extensions-systemtools_2.0+git28+88dbcac0+88dbcac492-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-systemtools.bb
-Description: enigma2-plugin-extensions-systemtools version 2.0+git-r1
+Description: enigma2-plugin-extensions-systemtools version 2.0+git-r0
 OE: enigma2-plugin-extensions-systemtools
 License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-tageditor
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 02a9eb9b1b42c35e83a3a3a4529fea88
-SHA256sum: 9e9dd8e9ad327c4e0de47bc2ade02793c6effc14b907c5aa981b38f61f98c02c
-Size: 18880
-Filename: enigma2-plugin-extensions-tageditor_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 3f527b81c43305e6b06d0d4fbcd70bf8
+SHA256sum: eaf2a0c9e3c0392e037f66f26476cd1e8add78eb288a4a0058df6440a2d0d16d
+Size: 18852
+Filename: enigma2-plugin-extensions-tageditor_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tageditor
 OE: enigma2-plugins
@@ -9850,15 +9888,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-trafficinfo
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 768230257dfb732ea7d5cbe3ca9ab60a
-SHA256sum: 580d74b6e4ee13f5b1804615bf2d793a7fa0702a83b8dcba465948d361ef344f
+MD5Sum: 6d6b9d981887a1e7f0bc9e6367087b17
+SHA256sum: 1a7de26bd7c5b3059782bba103adf7c0d8163858e65e942194b98db694e389ec
 Size: 13996
-Filename: enigma2-plugin-extensions-trafficinfo_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-trafficinfo_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-trafficinfo
 OE: enigma2-plugins
@@ -9866,16 +9904,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-transmission
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: transmission, transmission-client
 Recommends: transmission, transmission-client
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3aaa711360d1c50ab0342078ab92e97b
-SHA256sum: ade69281b9423cc422e7b9f1a847e1637fef3c9c60859bb31f9afbeb33e666ea
+MD5Sum: 3f96f621990cf9c4788fe5d3a07d4fb1
+SHA256sum: b3e98bebbe5fbead7350f0574179b033fe2ac83ce8f8b41808478e2351a7e9d7
 Size: 15848
-Filename: enigma2-plugin-extensions-transmission_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-transmission_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-transmission
 OE: enigma2-plugins
@@ -9883,15 +9921,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tvcharts
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8370193e29d19f3e9090a7b586611071
-SHA256sum: 18a8280a3f7bdf274501c26c119238951a59d287fb7d16956f6627a71251ec8e
-Size: 20588
-Filename: enigma2-plugin-extensions-tvcharts_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7947c26d6f0ff22db6bba720542275ed
+SHA256sum: afa9ddfe339627518b4108d9ab3c7332d00d7464a4fb110eb53fd6ed6068dd47
+Size: 20592
+Filename: enigma2-plugin-extensions-tvcharts_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tvcharts
 OE: enigma2-plugins
@@ -9899,15 +9937,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-unwetterinfo
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 469b3fe4fe7c7c0e47bb35be3746905c
-SHA256sum: ffdd2ec2f8289d1fb5d75edd996e9bc5fdf8e8f3d62cb0cc21cc8b283fb461bf
+MD5Sum: f74a1c4d2966e7aed241e26ac27a0693
+SHA256sum: 31908eeaa6963bd92c2a198370b1f2b0be1d90bb4c6d68f49bd35371b4b5cf5a
 Size: 59190
-Filename: enigma2-plugin-extensions-unwetterinfo_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-unwetterinfo_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-unwetterinfo
 OE: enigma2-plugins
@@ -9915,14 +9953,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-valixdcontrol
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 581d11486fcfbea6e29662f9de1bcfbf
-SHA256sum: fbc1693e3b2cef79fe352a89084268d14ee631e300f017d5f66dcaec6ce650d5
-Size: 81862
-Filename: enigma2-plugin-extensions-valixdcontrol_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: a099ecadd07c01ade7966cd7f918a1e3
+SHA256sum: 653ef438a4d6274fd8383e3ecd0ed506deb3714d251294d8f89b0dd3354516ee
+Size: 81836
+Filename: enigma2-plugin-extensions-valixdcontrol_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-valixdcontrol
 OE: enigma2-plugins
@@ -9930,15 +9968,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-virtualzap
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8a602826e11ee57c44261d887fbf7eef
-SHA256sum: bb81dbee1c070362f9398a714edc0b9726727787f441d603019c1ffc67cef4e5
-Size: 70320
-Filename: enigma2-plugin-extensions-virtualzap_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 59e4de8ec1c4e69e44983f9d8ba7addd
+SHA256sum: a25f0c97af533401275ca753aa636316cba40646924b4cae3ac7e0e785cc5360
+Size: 70328
+Filename: enigma2-plugin-extensions-virtualzap_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-virtualzap
 OE: enigma2-plugins
@@ -9946,14 +9984,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vlcplayer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4f160f5686f18154dd49fbefeb7204d9
-SHA256sum: 085f015da67665183ec6fffacd894a70aa5b70df962db998ef021747480de068
+MD5Sum: 5a2c91d788db846d4d6218178a0afb96
+SHA256sum: 1de48e495069b164bba090bb1785362d562dd44e6d9de206f06786a9ea167ce5
 Size: 81782
-Filename: enigma2-plugin-extensions-vlcplayer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-vlcplayer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-vlcplayer
 OE: enigma2-plugins
@@ -10023,15 +10061,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-webcamviewer
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-shell, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d7ad193d30c76eb569bec99f1f94e0b3
-SHA256sum: b9c792db813d054da06f1153b4b5c69e382d94f2c53fc2e57099f639ce46a672
-Size: 58290
-Filename: enigma2-plugin-extensions-webcamviewer_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e28eabf3d87994768f8e0eb21080930d
+SHA256sum: b4428e9c3ca64e4e2ecce5686d269da4081fe7887a19bed215845ecfd823bffd
+Size: 58294
+Filename: enigma2-plugin-extensions-webcamviewer_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-webcamviewer
 OE: enigma2-plugins
@@ -10039,14 +10077,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-werbezapper
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: c503ba7c6b8260e138723035b371b27b
-SHA256sum: 4c4468a4e89190215d11a6fb8ccb3b217a2754614611e422a4866aca09b29171
-Size: 43762
-Filename: enigma2-plugin-extensions-werbezapper_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 5fafff1efa90125979405089eada86b0
+SHA256sum: 07b4435c58c2b3ec8ae2efa0776c2531e44c8ee650eddfff94d4840761b1d336
+Size: 43764
+Filename: enigma2-plugin-extensions-werbezapper_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-werbezapper
 OE: enigma2-plugins
@@ -10166,14 +10204,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dbg
-Version: 1+git1191+1c89e520+1c89e527f1-r0
+Version: 1+git1195+46c7e550+46c7e55bc9-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d889a75bb9347caf63ff9a29ae0247ea
-SHA256sum: b51dc10490f16db738a98ff98a92faab20f3d397b80bf22e4daaec315a96ac00
+MD5Sum: e99624b10ed4a73aad08d1dc035690b7
+SHA256sum: fafd160801a8e5d36ee86bee240256e9bcd0692dc0d6563197053ac8b16ca40e
 Size: 688
-Filename: enigma2-plugin-extensions-youtube-dbg_1+git1191+1c89e520+1c89e527f1-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-youtube-dbg_1+git1195+46c7e550+46c7e55bc9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Debugging files
 OE: enigma2-plugin-extensions-youtube
@@ -10182,15 +10220,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-dev
-Version: 1+git1191+1c89e520+1c89e527f1-r0
-Recommends: enigma2-plugin-extensions-youtube (= 1+git1191+1c89e520+1c89e527f1-r0), python3-codecs-dev, python3-core-dev, python3-dev, python3-json-dev, python3-netclient-dev, python3-pyopenssl-dev, python3-twisted-web-dev
+Version: 1+git1195+46c7e550+46c7e55bc9-r0
+Recommends: enigma2-plugin-extensions-youtube (= 1+git1195+46c7e550+46c7e55bc9-r0), python3-codecs-dev, python3-core-dev, python3-dev, python3-json-dev, python3-netclient-dev, python3-pyopenssl-dev, python3-twisted-web-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 30bcef9dcac1202d1eb91af576af3db7
-SHA256sum: 62e3244ba3924dce9db6963d5863da20b715a52b2b640954cdf71cd074bd1612
+MD5Sum: 52f9f8c9cce28e79b3e72c2c3bbf0944
+SHA256sum: 7bc15045b3b08994a91ee0b8b59366e1fd65e6bc81e0cdeed9a5fa5b51e81424
 Size: 772
-Filename: enigma2-plugin-extensions-youtube-dev_1+git1191+1c89e520+1c89e527f1-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-youtube-dev_1+git1195+46c7e550+46c7e55bc9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Development files
 OE: enigma2-plugin-extensions-youtube
@@ -10199,14 +10237,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube-src
-Version: 1+git1191+1c89e520+1c89e527f1-r0
+Version: 1+git1195+46c7e550+46c7e55bc9-r0
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d42da8b0875088631c67e365a49df86
-SHA256sum: 42c519016c54c4e01cb3300f1ddeea2093d65675f8a449643243573660e75b66
-Size: 38002
-Filename: enigma2-plugin-extensions-youtube-src_1+git1191+1c89e520+1c89e527f1-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 7cc6aa9cfdd6d46b53fe6bf98a36f96a
+SHA256sum: 16d40b89530fc6525ee603f109b77a15a6f5ad00d5e2d0a34e5a3e2fadb5f4f8
+Size: 38088
+Filename: enigma2-plugin-extensions-youtube-src_1+git1195+46c7e550+46c7e55bc9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos - Source files
 OE: enigma2-plugin-extensions-youtube
@@ -10215,15 +10253,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-youtube
-Version: 1+git1191+1c89e520+1c89e527f1-r0
+Version: 1+git1195+46c7e550+46c7e55bc9-r0
 Depends: python3-codecs, python3-core, python3-json, python3-netclient, python3-pyopenssl, python3-twisted-web
 Section: multimedia
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 42e5e70e3e2c59464a5543e1dd27f770
-SHA256sum: 961f965913dd344309469a29e13874fba7f8859832617b9116422753d98dbb5e
-Size: 167096
-Filename: enigma2-plugin-extensions-youtube_1+git1191+1c89e520+1c89e527f1-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: f2b2ec4b29b828b099f00c5ae96fd51d
+SHA256sum: 9a0f4cc1f320b7b65da4d4bcb9ce6a1ad339704dafe7e21ba754037989ed6e66
+Size: 167220
+Filename: enigma2-plugin-extensions-youtube_1+git1195+46c7e550+46c7e55bc9-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-youtube.bb
 Description: Enigma2 plugin to manage your youtube account and watch videos
 OE: enigma2-plugin-extensions-youtube
@@ -10232,14 +10270,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-zapstatistic
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3fb812235b79b97e3755fa36494c8eaa
-SHA256sum: 74583145b7a80bffeac8a3ce845b091fda6c202b3409b46294a3e01f9f1ae0d4
+MD5Sum: c1ae621cb574546d5540aa4e4dcb9e74
+SHA256sum: 81dee2c345048f52e9f4330011b38587e425346a77a54bbab146793b48beb1a6
 Size: 18996
-Filename: enigma2-plugin-extensions-zapstatistic_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-zapstatistic_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zapstatistic
 OE: enigma2-plugins
@@ -10247,15 +10285,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-zdfmediathek
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: python3-html, python3-requests, python3-twisted-web
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9db605cefcdef19ef5cc6e89e381eb58
-SHA256sum: 80dc5fbb872cbaef71576d7c369209fda52b66570557c30feed17fc0b8268d2a
+MD5Sum: 6a52c45777111ffa81d0d0710f7f21cb
+SHA256sum: bc98ec3f3b86ff49c33e15857c740a578a540fad18b0450cd3f4f54dcd4b35be
 Size: 61362
-Filename: enigma2-plugin-extensions-zdfmediathek_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-extensions-zdfmediathek_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zdfmediathek
 OE: enigma2-plugins
@@ -10285,9 +10323,9 @@ Depends: enigma2-plugin-extensions-dreamosat-cammanager, libc6 (>= 2.38+git0+1e0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 04474c88f925c994c579fb013ba3e89a
-SHA256sum: 9fe59b1249fc632b2fbc9dd6c2919e7e205022235fda4ac9ce4ff97dc9fe9413
-Size: 991738
+MD5Sum: 7a8367193781518c621e2b5a3991c637
+SHA256sum: 052456695b2252806e21a5bac893eac755202d21e2290f91e7c3fa7fdc9cb905
+Size: 991740
 Filename: enigma2-plugin-softcams-dreamosat-ncam_v14.3-r0+git10709+0c15e6a0+0c15e6a7a7-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-dreamosat-ncam_git.bb
 Description: NCam - Open Source Softcam - svn-14.3 emu r0
@@ -10302,9 +10340,9 @@ Depends: enigma2-plugin-extensions-dreamosat-cammanager, libc6 (>= 2.38+git0+1e0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: d545dad13dafef1d984938217d8425b1
-SHA256sum: 2a2992af29040b2e6483acf5a087511db8e8bfa702da1be85097732625c94952
-Size: 1115536
+MD5Sum: 654164e80f8c2053e934524761b90bf0
+SHA256sum: 65cd250ad3c64604845b8694428c79bb1e4e82436c1a58d58b7c102134119d03
+Size: 1115542
 Filename: enigma2-plugin-softcams-dreamosat-oscam-emu_v11731-r799+git10639+38a1e4e0+38a1e4eb8b-799_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-dreamosat-oscam-emu_git.bb
 Description: OSCam - Open Source Softcam - svn-11731 emu r799
@@ -10319,9 +10357,9 @@ Depends: enigma2-plugin-extensions-dreamosat-cammanager, libc6 (>= 2.38+git0+1e0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: f2f5ce0e4f4f2328b89eb5e7a4d1539d
-SHA256sum: de79fda1b8af3b1ab478cd35c29a72e4bd5b4b356d25bd6bcd73e47e8cdd4133
-Size: 1109554
+MD5Sum: 041d5f1e72dbd89381c6cdea672150dd
+SHA256sum: fecee0ac13e92b85859b247462f200944604c1b3d33e28d9bdcfb59490d83b43
+Size: 1109656
 Filename: enigma2-plugin-softcams-dreamosat-oscam-patched_v11726-r799+git2008+ed55b9c0+ed55b9cf44-799_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-dreamosat-oscam-patched_git.bb
 Description: OSCam-Patched - Open Source Softcam - svn-11726 emu r799
@@ -10336,9 +10374,9 @@ Depends: enigma2-plugin-extensions-dreamosat-cammanager, libc6 (>= 2.38+git0+1e0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 6cd55a384ec995612e4aede81ebeeb95
-SHA256sum: 9dcb835ccd5fd6b7e6b70c14df55172a4f5a6de0ca862a9429da87ff5ebe05e7
-Size: 1191720
+MD5Sum: 540ff20598463e6d6e829de4daf1a8be
+SHA256sum: 9d9731b87de612ef42bce4a657cd5f3ccd430c78ef1cf2c50e73a021922e63fd
+Size: 1191466
 Filename: enigma2-plugin-softcams-dreamosat-oscam-smod_v11720-r798+git2389+01bc9cd0+01bc9cdbdc-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-dreamosat-oscam-smod_git.bb
 Description: OSCam-Smod - Open Source Softcam - svn-11720 emu r798
@@ -10353,8 +10391,8 @@ Depends: enigma2-plugin-extensions-dreamosat-cammanager, libc6 (>= 2.38+git0+1e0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: 8a1886cb3b8cb3be728dba89eb31a6d0
-SHA256sum: 6bcca0a6733ba1e46e9d110569a700c82a5a8c4ec858e017b5eeb58236536d7f
+MD5Sum: ccfd87b3e3449b977dfd86f5ed88f2ee
+SHA256sum: b1fcbd6374c896dacdb75fba6edd064d9fb738bf82cd491e8f992f3197b2e04c
 Size: 795086
 Filename: enigma2-plugin-softcams-dreamosat-oscam_v11731+git10639+38a1e4e0+38a1e4eb8b-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-softcams-dreamosat-oscam_git.bb
@@ -10365,15 +10403,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-automaticcleanup
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d68cb6dc24db0e1c2e646871cfc22d59
-SHA256sum: 077deacbf793d1332040503eba5938eb8984e2fd9a8854fceb643cc2022293e4
-Size: 24044
-Filename: enigma2-plugin-systemplugins-automaticcleanup_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c2a355846bc806cf783ddde6237ea670
+SHA256sum: 8c2e3e736422e380ed2af90e878d3b6edb1bff6beb23a20f0367d556605ead0f
+Size: 24048
+Filename: enigma2-plugin-systemplugins-automaticcleanup_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticcleanup
 OE: enigma2-plugins
@@ -10381,15 +10419,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-automaticvolumeadjustment
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ecba397b035a664ec5606e4c054c5364
-SHA256sum: 9c50fc9093fb08d8290209281cd3687e8aa03829416b91d9c323973d4ce0376a
-Size: 33582
-Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: bad487db2036c3586b64a399937d4886
+SHA256sum: d8178511c885bcb246a3e4a0fb1d41e57651c4d8b9dda432b893974291e79302
+Size: 33572
+Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticvolumeadjustment
 OE: enigma2-plugins
@@ -10397,15 +10435,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-autoresolution
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cc647bea73e273049b82e8a09303f14b
-SHA256sum: ae96097208200ea8b5110bd02e5336c39ab7574333f21ce0f6fc69de99006e56
-Size: 45832
-Filename: enigma2-plugin-systemplugins-autoresolution_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 09308e7ef611bdd0f2ca7366b83c553a
+SHA256sum: f3b45fda655c89cefcaf9a12a8ff86be902956b397b13ba3958ca7ae3f30a96f
+Size: 45834
+Filename: enigma2-plugin-systemplugins-autoresolution_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-autoresolution
 OE: enigma2-plugins
@@ -10413,16 +10451,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-blindscan
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Recommends: virtual/blindscan-dvbs
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bf1998de0d559034b7b2a218ff565f79
-SHA256sum: d27d120cfdf26747d79e160e3cc519cf468d17551fc28177f52aa45918274e96
-Size: 144064
-Filename: enigma2-plugin-systemplugins-blindscan_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: c3c89196b0fd73f0cfd52c0db08c56b3
+SHA256sum: db0e3d8499ce558b3cbc8a106d3e4e9354c0b155bcc5fe10982f46d7826eb428
+Size: 144058
+Filename: enigma2-plugin-systemplugins-blindscan_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-blindscan
 OE: enigma2-plugins
@@ -10430,15 +10468,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-mphelp
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e28e8876080e2bb88a478009ad88c119
-SHA256sum: 68a489313786d1cbd881296910c8497f4e418e72b1db717aec6cf0cb94da6f05
-Size: 8632
-Filename: enigma2-plugin-systemplugins-mphelp_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d53dac5fe410b30b98dc0fc4e7f00bf0
+SHA256sum: bc5d5978553f7538fe21117e12a7ea7b202b6ec7d9ba21a698d136f7be64e41c
+Size: 8634
+Filename: enigma2-plugin-systemplugins-mphelp_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-mphelp
 OE: enigma2-plugins
@@ -10446,15 +10484,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkbrowser-staticdev
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 971c03c7d6e8abb683599a0b43e18c0d
-SHA256sum: 1b90f9879956af3753fb74fe9c1802cb47f33dd90b6236af09e20274ea7a21f2
+MD5Sum: a5552674d95822254cf163cca467c1ce
+SHA256sum: a4765e11f0d6bafa0d48658b8f57cf26fa07591d286530d5c381aaafcd7c7260
 Size: 108996
-Filename: enigma2-plugin-systemplugins-networkbrowser-staticdev_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-networkbrowser-staticdev_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-networkbrowser (static development)
 OE: enigma2-plugins
@@ -10462,15 +10500,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkbrowser
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins, libc6 (>= 2.38+git0+1e04dcec49)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 766188e3a29571a55bbce54733c05aa8
-SHA256sum: 4622e0e42a7ad64f038175fa6ce5b6d3e601180f7dd2886abe9c818ff618f51d
-Size: 124946
-Filename: enigma2-plugin-systemplugins-networkbrowser_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8bb977de2bb455154db0cfa363b97045
+SHA256sum: 3bd6d480431b4385df567d9455ce165aeff2a279b54d344a5191c86348f27a23
+Size: 124968
+Filename: enigma2-plugin-systemplugins-networkbrowser_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-networkbrowser
 OE: enigma2-plugins
@@ -10478,15 +10516,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-recinfobar
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0712570d04395224d6b34c392a4b4cdf
-SHA256sum: 21ad959516f6f98d470295ee0ae65fc76d14490a6ec37197003c6c52c5572a54
-Size: 47914
-Filename: enigma2-plugin-systemplugins-recinfobar_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6b955aceed11df59e1fef393dac6f357
+SHA256sum: 0002fe4bdf435d922f00e8d6566e38311d6f85f99e26ea3ffa5c1b29139b7f63
+Size: 47910
+Filename: enigma2-plugin-systemplugins-recinfobar_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-recinfobar
 OE: enigma2-plugins
@@ -10494,15 +10532,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satipclient
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3d0f2854c601dc7c1d5c9c4779ddedbb
-SHA256sum: 61d68ead51fc92b772016f5f3388048c1b0f4d469f4c2fd2beb0dc76f8fdb60b
+MD5Sum: d97bf5995c866c2624af75a1784e48ab
+SHA256sum: 0d32cd1195afddd46e0d488dc57bbbc3b63d6c2e2bdb238e68f0d50c48ce7c85
 Size: 35984
-Filename: enigma2-plugin-systemplugins-satipclient_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-satipclient_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-satipclient
 OE: enigma2-plugins
@@ -10510,15 +10548,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-setpasswd
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 049952a6b3c65d3fced1d247da253577
-SHA256sum: 9025e61d34cba8cbd0fffcd606ecc060ce1989841d6e5ca2c81a4b887356b340
-Size: 11820
-Filename: enigma2-plugin-systemplugins-setpasswd_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: b2c08979e601d5361c70650ed7720f44
+SHA256sum: 1ccccd99062d5d6d8e36cf276b1a1b7f844b78b072216e63943bda540baa0845
+Size: 11810
+Filename: enigma2-plugin-systemplugins-setpasswd_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-setpasswd
 OE: enigma2-plugins
@@ -10526,15 +10564,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-transcodingsetup
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f0cbab9fbb07a29aa751088ccc5c15dc
-SHA256sum: ca22482a25b2e72f030083bda80ab47104b178bbc5a788350dc851ae2eb3a400
-Size: 21592
-Filename: enigma2-plugin-systemplugins-transcodingsetup_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 4fcf717b18c05f4846ce82dc3f75ccb6
+SHA256sum: c8b67953954692b3c5e27fa08f5b5d61326ece661a118c26d6edd4aed3f26390
+Size: 21598
+Filename: enigma2-plugin-systemplugins-transcodingsetup_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-transcodingsetup
 OE: enigma2-plugins
@@ -10542,15 +10580,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-vfdcontrol
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 99dd28a227ee77aea40309d7fdc62391
-SHA256sum: f53aa339330b87931d528ab36e842f65caba17a6cd30cb0c47cfd4034843fd04
-Size: 19262
-Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 371f316e3ec6bf318f8bc813b4d64c7d
+SHA256sum: cc39e11164dd1730f57be7ca44f096540772b44832569e486cb7fe5467df2e84
+Size: 19260
+Filename: enigma2-plugin-systemplugins-vfdcontrol_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vfdcontrol
 OE: enigma2-plugins
@@ -10558,16 +10596,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-vps-dbg
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a2c08f27fec6dd71da16fa15a8e57267
-SHA256sum: ca7faf94bde7b596571b77ffd2653ffd4a9f9bd5c47dc0c13ed771ae4b17ba5e
-Size: 156038
-Filename: enigma2-plugin-systemplugins-vps-dbg_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8c1169e3c52b6a436b237384eefa25d3
+SHA256sum: df621d70736dc9b47f430a3bfd57ce2e2c0148af5cce4a7248440cd96b92c4c6
+Size: 156040
+Filename: enigma2-plugin-systemplugins-vps-dbg_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vps (debug)
 OE: enigma2-plugins
@@ -10575,15 +10613,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-vps
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Depends: enigma2-plugins, libc6 (>= 2.38+git0+1e04dcec49), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0)
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 399ed711a55ffd2031c6a66350b68bfd
-SHA256sum: e4b6857cc15a1d71c81001d1979455302769a44441d3830648889c7338ec8983
+MD5Sum: 9eb22e76a90db0d38859cd49a0ba3363
+SHA256sum: a72462f0d43dd5287d55a283a0f4ede917aa41c776fc4c409a1c844294523232
 Size: 71532
-Filename: enigma2-plugin-systemplugins-vps_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugin-systemplugins-vps_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vps
 OE: enigma2-plugins
@@ -10591,15 +10629,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugins-dbg
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f7b3232c769185ed06a25fc95023974e
-SHA256sum: a3e7d2da1d2ab5be89093005b1df8c9956347270224435f11d3893731aac691c
-Size: 38496
-Filename: enigma2-plugins-dbg_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 6b914176f319706ab277c8db2c5ea718
+SHA256sum: 43b721f73a304c8032686df554285ff3cf4a0e7345561229b10561026bd4d526
+Size: 38506
+Filename: enigma2-plugins-dbg_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0 - Debugging files
 OE: enigma2-plugins
@@ -10607,15 +10645,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugins-dev
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
-Recommends: aio-grab-dev, avahi-daemon-dev, dvdbackup-dev, enigma2-plugin-extensions-mediadownloader-dev, enigma2-plugin-extensions-vlcplayer-dev, enigma2-plugin-systemplugins-mphelp-dev, enigma2-plugins (= y-git5710+edb82bf0+edb82bfaa0-r0), glibc-dev, hdparm-dev, libcddb-dev, libcdio-dev, libdvdread-dev, libgcc-dev, libstdc++-dev, libtirpc-dev, png-util-dev, pydpflib-dev, python3-codecs-dev, python3-ctypes-dev, python3-daap-dev, python3-datetime-dev, python3-dateutil-dev, python3-dev, python3-difflib-dev, python3-email-dev, python3-html-dev, python3-icalendar-dev, python3-image-dev, python3-mutagen-dev, python3-netclient-dev, python3-pillow-dev, python3-pyopenssl-dev, python3-pyusb-dev, python3-requests-dev, python3-shell-dev, python3-simplejson-dev, python3-six-dev, python3-sqlite3-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-mail-dev, python3-twisted-protocols-dev, python3-twisted-web-dev, python3-xml-dev, smartmontools-dev, streamripper-dev, transmission-client-dev, transmission-dev
+Version: y-git5711+988db200+988db20811-r0
+Recommends: aio-grab-dev, avahi-daemon-dev, dvdbackup-dev, enigma2-plugin-extensions-mediadownloader-dev, enigma2-plugin-extensions-vlcplayer-dev, enigma2-plugin-systemplugins-mphelp-dev, enigma2-plugins (= y-git5711+988db200+988db20811-r0), glibc-dev, hdparm-dev, libcddb-dev, libcdio-dev, libdvdread-dev, libgcc-dev, libstdc++-dev, libtirpc-dev, png-util-dev, pydpflib-dev, python3-codecs-dev, python3-ctypes-dev, python3-daap-dev, python3-datetime-dev, python3-dateutil-dev, python3-dev, python3-difflib-dev, python3-email-dev, python3-html-dev, python3-icalendar-dev, python3-image-dev, python3-mutagen-dev, python3-netclient-dev, python3-pillow-dev, python3-pyopenssl-dev, python3-pyusb-dev, python3-requests-dev, python3-shell-dev, python3-simplejson-dev, python3-six-dev, python3-sqlite3-dev, python3-treq-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-mail-dev, python3-twisted-protocols-dev, python3-twisted-web-dev, python3-xml-dev, smartmontools-dev, streamripper-dev, transmission-client-dev, transmission-dev
 Section: devel
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 41fcdea06c58fff626811df84bed8505
-SHA256sum: e26b3617e6cb6a8430a0dc87316756da10568c1295082b31d918451f82eaaf7a
-Size: 942
-Filename: enigma2-plugins-dev_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d400294b687468c794c1af1bc1c22cea
+SHA256sum: 9ff91f807e9a2760071da1bc992e0f75c3d7710973ee33a8a1992c9c3691ab6d
+Size: 944
+Filename: enigma2-plugins-dev_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0 - Development files
 OE: enigma2-plugins
@@ -10623,14 +10661,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugins-meta
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d6ba7b3a93d91761c1f35d4b4349a7fd
-SHA256sum: 49be4583f833ef8a25fa87bddb28e115fbec376d6e1fc05331b44052add9dd6a
+MD5Sum: 7a57ce98ac71dcb4fc02f86fbcc5ca2c
+SHA256sum: afbbf161d3896b4888969e3213d2fcfc083d7db74f2aac4f5de0daa7b9c25939
 Size: 12622
-Filename: enigma2-plugins-meta_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+Filename: enigma2-plugins-meta_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0
 OE: enigma2-plugins
@@ -10638,14 +10676,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugins
-Version: y-git5710+edb82bf0+edb82bfaa0-r0
+Version: y-git5711+988db200+988db20811-r0
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ea43a56c0080b77c1de2f5b5d8d7315f
-SHA256sum: debf3b9f8d0b721ed519ab0cff982c8e8e05869bc755b6c658eb7dff1cef4bbe
-Size: 532
-Filename: enigma2-plugins_y-git5710+edb82bf0+edb82bfaa0-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 8da21794f670936be57c59c17c02e78b
+SHA256sum: c711bacf3d2c7aec05468e77a03b8b6d7fc242538a1492ed8da9fe1c7a3fb575
+Size: 534
+Filename: enigma2-plugins_y-git5711+988db200+988db20811-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugins.bb
 Description: enigma2-plugins version y-git-r0
 OE: enigma2-plugins
